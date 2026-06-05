@@ -11,7 +11,7 @@ Orchestrator for all Meta Ads (Facebook/Instagram) tasks. Meta Ads for B2B can d
 
 ## Methodology
 
-This skill implements the Ivan Falco B2B demand generation methodology for Meta - a data-first, creative-as-targeting approach that leverages Meta's algorithm (Andromeda + Gem) with high-quality audience inputs and systematic creative testing.
+This skill implements the Tanmay Jain B2B demand generation methodology for Meta - a data-first, creative-as-targeting approach that leverages Meta's algorithm (Andromeda + Gem) with high-quality audience inputs and systematic creative testing.
 
 ## Core Philosophy
 

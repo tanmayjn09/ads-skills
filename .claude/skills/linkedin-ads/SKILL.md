@@ -11,7 +11,7 @@ Orchestrator for all LinkedIn Ads tasks. Route to the correct sub-skill based on
 
 ## Methodology
 
-This skill implements the Ivan Falco B2B demand generation methodology - a full-funnel, 5-Stage Demand Engine approach to LinkedIn Ads that prioritizes audience precision, Thought Leader Ads, and systematic scaling through audience penetration.
+This skill implements the Tanmay Jain B2B demand generation methodology - a full-funnel, 5-Stage Demand Engine approach to LinkedIn Ads that prioritizes audience precision, Thought Leader Ads, and systematic scaling through audience penetration.
 
 ## Routing Logic
 

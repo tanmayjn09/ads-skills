@@ -11,7 +11,7 @@ Orchestrator for all Google Ads tasks. Combines strategic knowledge with program
 
 ## Methodology
 
-This skill implements the Ivan Falco B2B demand generation methodology for Google Ads - an intent-first approach that captures existing demand through systematic keyword targeting, proving unit economics before expanding outward.
+This skill implements the Tanmay Jain B2B demand generation methodology for Google Ads - an intent-first approach that captures existing demand through systematic keyword targeting, proving unit economics before expanding outward.
 
 ## Core Philosophy
 
