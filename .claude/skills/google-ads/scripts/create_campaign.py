@@ -36,9 +36,9 @@ BIDDING_STRATEGIES = {
 def create_campaign(name: str, campaign_type: str, daily_budget: float,
                     bidding: str = "MAXIMIZE_CONVERSIONS",
                     target_cpa: float = None, target_roas: float = None,
-                    paused: bool = False):
+                    paused: bool = False, customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
 
     # Step 1: Create campaign budget
     budget_service = client.get_service("CampaignBudgetService")
@@ -130,6 +130,7 @@ if __name__ == "__main__":
     parser.add_argument("--target-cpa", type=float, help="Target CPA in dollars")
     parser.add_argument("--target-roas", type=float, help="Target ROAS (e.g., 3.0 = 300%)")
     parser.add_argument("--paused", action="store_true", help="Create in paused state")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
 
     create_campaign(
@@ -140,4 +141,5 @@ if __name__ == "__main__":
         target_cpa=args.target_cpa,
         target_roas=args.target_roas,
         paused=args.paused,
+        customer_id=args.customer_id,
     )

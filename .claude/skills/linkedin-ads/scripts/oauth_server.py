@@ -22,8 +22,12 @@ AUTH_URL = (
 )
 
 
+shutdown_flag = False
+
+
 class OAuthHandler(http.server.BaseHTTPRequestHandler):
     def do_GET(self):
+        global shutdown_flag
         parsed = urllib.parse.urlparse(self.path)
         if parsed.path == "/callback":
             params = urllib.parse.parse_qs(parsed.query)
@@ -35,8 +39,10 @@ class OAuthHandler(http.server.BaseHTTPRequestHandler):
                     self.send_response(200)
                     self.send_header("Content-type", "text/html")
                     self.end_headers()
-                    self.wfile.write(b"<h1>Success! Access token saved.</h1><p>You can close this window.</p>")
-                    print(f"\nAccess token obtained and saved to .env!")
+                    self.wfile.write(b"<h1>Success! Access token saved. You can close this window.</h1>")
+                    print(f"\nSUCCESS! Access token saved to .env")
+                    print(f"TOKEN: {token}")
+                    shutdown_flag = True
                 else:
                     self.send_response(500)
                     self.send_header("Content-type", "text/html")
@@ -46,11 +52,13 @@ class OAuthHandler(http.server.BaseHTTPRequestHandler):
                 self.send_response(400)
                 self.send_header("Content-type", "text/html")
                 self.end_headers()
-                error_msg = params.get("error_description", params["error"])
+                error_msg = params.get("error_description", params["error"])[0]
                 self.wfile.write(f"<h1>Error: {error_msg}</h1>".encode())
         else:
-            self.send_response(404)
+            self.send_response(200)
+            self.send_header("Content-type", "text/html")
             self.end_headers()
+            self.wfile.write(b"<h1>Waiting for LinkedIn callback...</h1>")
 
     def exchange_code(self, code):
         resp = requests.post(
@@ -71,7 +79,9 @@ class OAuthHandler(http.server.BaseHTTPRequestHandler):
             return None
 
     def save_token(self, token):
-        env_path = os.path.join(os.path.dirname(__file__), ".env")
+        # Save to root .env
+        env_path = os.path.join(os.path.dirname(__file__), "..", "..", "..", "..", ".env")
+        env_path = os.path.abspath(env_path)
         with open(env_path, "r") as f:
             lines = f.readlines()
         with open(env_path, "w") as f:
@@ -80,9 +90,10 @@ class OAuthHandler(http.server.BaseHTTPRequestHandler):
                     f.write(f"LINKEDIN_ACCESS_TOKEN={token}\n")
                 else:
                     f.write(line)
+        print(f"Saved to: {env_path}")
 
     def log_message(self, format, *args):
-        pass  # Suppress request logs
+        pass
 
 
 if __name__ == "__main__":
@@ -95,5 +106,6 @@ if __name__ == "__main__":
     print("Waiting for callback on http://localhost:3000 ...")
 
     server = http.server.HTTPServer(("localhost", 3000), OAuthHandler)
-    server.handle_request()  # Handle one request then stop
+    while not shutdown_flag:
+        server.handle_request()
     print("Done!")

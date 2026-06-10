@@ -1,0 +1,90 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#1F0214"/>
+
+  <!-- Main background card -->
+  <rect x="48" y="48" width="984" height="984" rx="24" fill="#650A41"/>
+
+  <!-- Decorative geometric shapes -->
+  <rect x="800" y="48" width="232" height="232" rx="24" fill="#4A0730"/>
+  <rect x="48" y="800" width="232" height="232" rx="24" fill="#4A0730"/>
+  <circle cx="916" cy="164" r="60" fill="#3D0628"/>
+  <circle cx="164" cy="916" r="60" fill="#3D0628"/>
+
+  <!-- Thin accent lines -->
+  <line x1="540" y1="380" x2="540" y2="680" stroke="#8B1A5A" stroke-width="2"/>
+  <line x1="200" y1="530" x2="880" y2="530" stroke="#8B1A5A" stroke-width="2"/>
+
+  <!-- Split comparison container -->
+  <rect x="120" y="380" width="380" height="200" rx="16" fill="#4A0730"/>
+  <rect x="580" y="380" width="380" height="200" rx="16" fill="#1F0214"/>
+
+  <!-- Left side label -->
+  <text x="310" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#E8E0E6" text-anchor="middle" opacity="0.6">Traditional approach</text>
+
+  <!-- Left side - 6 months crossed out -->
+  <text x="310" y="510" font-family="Arial, sans-serif" font-size="72" font-weight="800" fill="#E8E0E6" text-anchor="middle" opacity="0.35">6 months</text>
+  <!-- Strikethrough line -->
+  <line x1="148" y1="505" x2="472" y2="505" stroke="#E8E0E6" stroke-width="5" opacity="0.5"/>
+
+  <!-- Right side label -->
+  <text x="770" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#DDF07E" text-anchor="middle" opacity="0.9">With Sprinto</text>
+
+  <!-- Right side - 2 weeks in Texas yellow-green -->
+  <text x="770" y="510" font-family="Arial, sans-serif" font-size="72" font-weight="800" fill="#DDF07E" text-anchor="middle">2 weeks</text>
+
+  <!-- VS badge -->
+  <circle cx="540" cy="480" r="32" fill="#650A41"/>
+  <rect x="508" y="448" width="64" height="64" rx="32" fill="#1F0214"/>
+  <text x="540" y="490" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#F6F5F2" text-anchor="middle">VS</text>
+
+  <!-- Logo group top-left -->
+  <rect x="80" y="80" width="48" height="48" rx="8" fill="#1F0214"/>
+  <text x="104" y="114" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">S</text>
+  <text x="142" y="113" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">SPRINTO</text>
+
+  <!-- SOC 2 tag top right area -->
+  <rect x="820" y="85" width="192" height="40" rx="20" fill="#1F0214"/>
+  <text x="916" y="111" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#DDF07E" text-anchor="middle">SOC 2 Compliant</text>
+
+  <!-- Main headline -->
+  <text x="540" y="290" font-family="Arial, sans-serif" font-size="64" font-weight="800" fill="#FFFFFF" text-anchor="middle">SOC 2 in</text>
+  <text x="540" y="365" font-family="Arial, sans-serif" font-size="64" font-weight="800" fill="#DDF07E" text-anchor="middle" font-style="italic">2 weeks.</text>
+
+  <!-- Zero dev hours accent -->
+  <text x="540" y="230" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#E8E0E6" text-anchor="middle" opacity="0.8">Zero dev hours.</text>
+
+  <!-- Body text -->
+  <text x="540" y="640" font-family="Arial, sans-serif" font-size="22" fill="#E8E0E6" text-anchor="middle" opacity="0.9">Automated evidence from AWS, GitHub,</text>
+  <text x="540" y="672" font-family="Arial, sans-serif" font-size="22" fill="#E8E0E6" text-anchor="middle" opacity="0.9">Terraform, and JIRA.</text>
+  <text x="540" y="716" font-family="Arial, sans-serif" font-size="22" fill="#DDF07E" text-anchor="middle" font-weight="700">Zero developer hours after setup.</text>
+
+  <!-- Integration badges -->
+  <!-- AWS badge -->
+  <rect x="200" y="780" width="120" height="44" rx="22" fill="#F6F5F2"/>
+  <text x="260" y="808" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1F0214" text-anchor="middle">AWS</text>
+
+  <!-- GitHub badge -->
+  <rect x="350" y="780" width="140" height="44" rx="22" fill="#F6F5F2"/>
+  <text x="420" y="808" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1F0214" text-anchor="middle">GitHub</text>
+
+  <!-- Terraform badge -->
+  <rect x="510" y="780" width="160" height="44" rx="22" fill="#F6F5F2"/>
+  <text x="590" y="808" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1F0214" text-anchor="middle">Terraform</text>
+
+  <!-- JIRA badge -->
+  <rect x="690" y="780" width="120" height="44" rx="22" fill="#F6F5F2"/>
+  <text x="750" y="808" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1F0214" text-anchor="middle">JIRA</text>
+
+  <!-- CTA button -->
+  <rect x="390" y="890" width="300" height="56" rx="8" fill="#DDF07E"/>
+  <text x="540" y="925" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1F0214" text-anchor="middle">Book a Demo</text>
+
+  <!-- Arrow on CTA -->
+  <polygon points="700,918 714,918 714,912 728,925 714,938 714,932 700,932" fill="#1F0214"/>
+
+  <!-- Bottom tagline -->
+  <text x="540" y="980" font-family="Arial, sans-serif" font-size="16" fill="#E8E0E6" text-anchor="middle" opacity="0.5">sprinto.com — Compliance automation for fast-growing companies</text>
+
+</svg>

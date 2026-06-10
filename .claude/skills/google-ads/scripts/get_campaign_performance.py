@@ -40,7 +40,7 @@ def get_date_clause(args) -> str:
 
 def get_performance(args):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(getattr(args, "customer_id", None))
     ga_service = client.get_service("GoogleAdsService")
 
     date_clause = get_date_clause(args)
@@ -161,5 +161,6 @@ if __name__ == "__main__":
     parser.add_argument("--start-date", help="Custom start date (YYYY-MM-DD)")
     parser.add_argument("--end-date", help="Custom end date (YYYY-MM-DD)")
     parser.add_argument("--by-day", action="store_true", help="Show daily breakdown")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
     get_performance(args)

@@ -1,0 +1,168 @@
+======================================================================
+LINKEDIN COMPETITOR AD COPY REPORT
+======================================================================
+
+========================================
+VANTA
+========================================
+
+  AD 1 - Video Ad | https://www.linkedin.com/ad-library/detail/1432423366
+  Headline: Vanta Delivers: Live from NY Recap
+  CTA:      Learn more
+  Copy:     From the AI vendors you use to the AI features you build, your risk surface is expanding faster than most programs were built to handle.  Today at Vanta Delivers, we introduced new capabilities that provide you a unified view across your risk program, so you can lean into AI with confidence.   Here's what we announced ⬇️  The Agent for TPRM handles the heavy lifting on vendor assessments, gatherin...
+
+
+  AD 2 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1431601756
+  Headline: 'Shadow AI' is real. Vanta wants to help manage it
+  Copy:     The numbers on shadow AI are worse than most people think.   According to our own data, 70% of Vanta's 16K+ customers have AI tools running inside their organizations that haven't gone through formal security review.   I met with leaders at a multinational GSI last week and they laughed at this and said "Understatement! Every company is suffering from this risk!"  Meanwhile, companies are only rev...
+
+
+  AD 3 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1431406986
+  Headline: 'Shadow AI' is real. Vanta wants to help manage it
+  Copy:     The numbers on shadow AI are worse than most people think.   According to our own data, 70% of Vanta's 16K+ customers have AI tools running inside their organizations that haven't gone through formal security review.   I met with leaders at a multinational GSI last week and they laughed at this and said "Understatement! Every company is suffering from this risk!"  Meanwhile, companies are only rev...
+
+
+  AD 4 - Video Ad | https://www.linkedin.com/ad-library/detail/1426751136
+  Headline: When it comes to something as complex and critical as keeping your security airtight, depth wins over speed every time.
+  CTA:      Learn more
+  Copy:     Sometimes unlimited tokens and rippin' guitar riffs can't solve every problem.   The best builders know what NOT to build. Vibe coding might cut down on time, but that's only a fraction (20%) of the total software lifecycle cost.   The other 70–80%? Maintenance, security patches, compliance updates. The slow grind of keeping it alive in production.  When it comes to something as complex and critic...
+
+
+  AD 5 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1424883026
+  Copy:     Vanta has been named to the 2026 CNBC #Disruptor50 list of the most innovative private companies 🎉  AI is changing how companies build, sell, and prove they can be trusted. We built Vanta to meet that moment, and today 16,000+ customers rely on us to manage compliance, third-party risk, and security in one place.  Grateful for every customer, partner, and teammate who got us here.  See the full li...
+
+
+========================================
+DRATA
+========================================
+
+  AD 1 - Video Ad | https://www.linkedin.com/ad-library/detail/1430774176
+  Headline: The smarter way to scale trust
+  CTA:      Learn more
+  Copy:     From audit readiness to customer assurance, Drata helps companies reduce manual work with AI-powered automation for evidence collection, control monitoring, and trust workflows.
+
+
+  AD 2 - Video Ad | https://www.linkedin.com/ad-library/detail/1430645416
+  Headline: Continuous trust starts here
+  CTA:      Learn more
+  Copy:     Drata brings compliance automation, enterprise GRC, trust center, questionnaire automation, and third-party risk into one platform so teams can move faster, stay audit-ready, and build trust at every stage of growth.
+
+
+  AD 3 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1419251506
+  Headline: Strengthen Your Compliance
+  CTA:      Learn more
+  Copy:     Help your team stay audit-ready without the stress.  Drata centralizes evidence, automates monitoring, and keeps your compliance frameworks up to date. No more scrambling through spreadsheets, just clean, credible proof of your security posture.  Book a 1:1 demo today and see how Drata simplifies compliance.
+
+
+  AD 4 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1411431556
+  Headline: Expedite Security Reviews
+  CTA:      Learn more
+  Copy:     PDFs go stale fast. Your security posture doesn't have to.  Give prospects real-time insight into compliance status so your team can close trust gaps quickly and confidently.  Book a 1:1 demo with one of our experts.
+
+
+  AD 5 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1411431546
+  Headline: Drata x Brex: Case Study
+  CTA:      Learn more
+  Copy:     When risk, compliance, and audit workflows live in different tools, you lose both efficiency and visibility.  Spreadsheets, tickets, and siloed systems make it nearly impossible to stay audit-ready or scale confidently.  Brex faced the same challenge.  With Drata, they brought everything into one place:  ✅ Control monitoring, internal audits, and vendor risk fully centralized  ✅ Real-time visibili...
+
+
+========================================
+SECUREFRAME
+========================================
+
+  AD 1 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1419259646
+  Headline: Stay contract-eligible and competitive for DoD work
+  CTA:      Learn more
+  Copy:     No CMMC? No DoD contracts. Experts at Secureframe help you get compliant fast and stay contract-eligible.  Enforcement of new contractual CMMC security requirements is now live.
+
+
+  AD 2 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1411570256
+  Headline: Stay contract-eligible and competitive for DoD work
+  CTA:      Learn more
+  Copy:     No CMMC? No DoD contracts. Experts at Secureframe help you get compliant fast and stay contract-eligible.  Enforcement of new contractual CMMC security requirements is now live.
+
+
+  AD 3 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1411475236
+  Headline: Stay contract-eligible and competitive for DoD work
+  CTA:      Learn more
+  Copy:     No CMMC? No DoD contracts. Experts at Secureframe help you get compliant fast and stay contract-eligible.  Enforcement of new contractual CMMC security requirements is now live.
+
+
+  AD 4 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1411467766
+  Headline: Stay contract-eligible and competitive for DoD work
+  CTA:      Learn more
+  Copy:     No CMMC? No DoD contracts. Experts at Secureframe help you get compliant fast and stay contract-eligible.  Enforcement of new contractual CMMC security requirements is now live.
+
+
+  AD 5 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1411467756
+  Headline: Stay contract-eligible and competitive for DoD work
+  CTA:      Learn more
+  Copy:     No CMMC? No DoD contracts. Experts at Secureframe help you get compliant fast and stay contract-eligible.  Enforcement of new contractual CMMC security requirements is now live.
+
+
+========================================
+THOROPASS
+========================================
+
+  AD 1 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1306799684
+  Headline: QSAC-backed PCI compliance in one platform
+  CTA:      Learn more
+  Copy:     Stop patching together vendors for PCI compliance. Thoropass is the only QSAC-backed platform that delivers automation, certified scans, pentesting, and audits under one roof. Meet your auditor on Day 1. Build trust that closes deals.
+
+
+  AD 2 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1306299784
+  Headline: The End-to-End Cybersecurity Auditor
+  CTA:      Learn more
+  Copy:     Thoropass delivers compliance automation and expert auditors under one roof. Get audit-ready faster with AI-powered evidence collection across 30+ frameworks—no third-party handoffs, no surprises. Just faster audits with less work for your team.
+
+
+  AD 3 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1306299774
+  Headline: The End-to-End Cybersecurity Auditor
+  CTA:      Learn more
+  Copy:     Thoropass delivers compliance automation and expert auditors under one roof. Get audit-ready faster with AI-powered evidence collection across 30+ frameworks—no third-party handoffs, no surprises. Just faster audits with less work for your team.
+
+
+  AD 4 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1305299394
+  Headline: HITRUST Certified in Half the Time
+  CTA:      Learn more
+  Copy:     Thoropass is the only all-in-one HITRUST solution—combining compliance automation, accredited assessment, and certification services. Get certified in half the time and save up to 50% by using one vendor for everything.
+
+
+  AD 5 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1293905284
+  Headline: The End-to-End Cybersecurity Auditor
+  CTA:      Learn more
+  Copy:     Thoropass delivers compliance automation and expert auditors under one roof. Get audit-ready faster with AI-powered evidence collection across 30+ frameworks—no third-party handoffs, no surprises. Just faster audits with less work for your team.
+
+
+========================================
+SPRINTO
+========================================
+
+  AD 1 - Video Ad | https://www.linkedin.com/ad-library/detail/1428975403
+  Headline: Stop Wasting Months on SOC 2
+  CTA:      Request Demo
+  Copy:     SOC 2 hits everyone differently: – Founders hate the delays in deals – CTOs hate the engineering lift – Security teams hate manual evidence work – Ops teams hate the busywork  See how Sprinto removes the friction at every stage and makes SOC 2 predictable for fast-moving companies.
+
+
+  AD 2 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1428973693
+  Headline: "Complex compliance, broken into manageable tasks" — CISO, G2 Leader
+  CTA:      Learn more
+  Copy:     Security leaders don't hand out praise easily. Here's what a CISO says about running compliance on autopilot with Sprinto.
+
+
+  AD 3 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1428954133
+  Headline: "Complex compliance, broken into manageable tasks" — CISO, G2 Leader
+  CTA:      Learn more
+  Copy:     Security leaders don't hand out praise easily. Here's what a CISO says about running compliance on autopilot with Sprinto.
+
+
+  AD 4 - Single Image Ad | https://www.linkedin.com/ad-library/detail/1428913383
+  Headline: How Anaconda cut security busywork by 11x
+  CTA:      Learn more
+  Copy:     Anaconda powers Python for 50M developers and 95% of the Fortune 500. Here's what their IT Director says about proving security with Sprinto.
+
+
+  AD 5 - Video Ad | https://www.linkedin.com/ad-library/detail/1428885543
+  Headline: Stop Wasting Months on SOC 2
+  CTA:      Request Demo
+  Copy:     SOC 2 hits everyone differently: – Founders hate the delays in deals – CTOs hate the engineering lift – Security teams hate manual evidence work – Ops teams hate the busywork  See how Sprinto removes the friction at every stage and makes SOC 2 predictable for fast-moving companies.

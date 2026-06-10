@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source venv/bin/activate*)",
+      "Bash(python3 *)",
+      "Bash(cd /Users/tanmayjn/ads-skills*)",
+      "Read(/Users/tanmayjn/ads-skills/*)",
+      "Edit(/Users/tanmayjn/ads-skills/*)"
+    ]
+  }
+}

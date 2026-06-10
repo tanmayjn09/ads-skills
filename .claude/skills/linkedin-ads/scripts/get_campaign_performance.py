@@ -52,23 +52,25 @@ def get_performance(args):
 
     granularity = "DAILY" if args.by_day else "ALL"
 
-    params = {
-        "q": "analytics",
-        "pivot": "CAMPAIGN",
-        "dateRange.start.year": start["year"],
-        "dateRange.start.month": start["month"],
-        "dateRange.start.day": start["day"],
-        "dateRange.end.year": end["year"],
-        "dateRange.end.month": end["month"],
-        "dateRange.end.day": end["day"],
-        "timeGranularity": granularity,
-        "accounts[0]": f"urn:li:sponsoredAccount:{account_id}",
-    }
+    # Build URL manually - LinkedIn API requires Restli encoding for dateRange and List() for URNs
+    from urllib.parse import urlencode, quote
 
+    date_range = (
+        f"(start:(year:{start['year']},month:{start['month']},day:{start['day']}),"
+        f"end:(year:{end['year']},month:{end['month']},day:{end['day']}))"
+    )
+    encoded_account = quote(f"urn:li:sponsoredAccount:{account_id}", safe="")
+    query = (
+        f"q=analytics&pivot=CAMPAIGN&timeGranularity={granularity}"
+        f"&dateRange={date_range}"
+        f"&accounts=List({encoded_account})"
+        f"&fields=impressions,clicks,costInLocalCurrency,externalWebsiteConversions,oneClickLeads,pivotValues"
+    )
     if args.campaign_id:
-        params["campaigns[0]"] = f"urn:li:sponsoredCampaign:{args.campaign_id}"
+        encoded_campaign = quote(f"urn:li:sponsoredCampaign:{args.campaign_id}", safe="")
+        query += f"&campaigns=List({encoded_campaign})"
 
-    resp = session.get(f"{BASE_URL}/adAnalytics", params=params)
+    resp = session.get(f"{BASE_URL}/adAnalytics?{query}")
     if resp.status_code != 200:
         print(f"ERROR: Failed to fetch analytics: {resp.status_code}")
         print(resp.text)
@@ -103,7 +105,8 @@ def get_performance(args):
         total_clicks += clicks
         total_impressions += impressions
 
-        pivot = el.get("pivotValue", "")
+        pivot_values = el.get("pivotValues", [el.get("pivotValue", "")])
+        pivot = pivot_values[0] if pivot_values else ""
         campaign_id = pivot.split(":")[-1] if pivot else "?"
 
         if args.by_day:

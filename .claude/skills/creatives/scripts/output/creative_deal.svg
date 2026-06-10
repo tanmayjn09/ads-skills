@@ -1,0 +1,109 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#1F0214"/>
+
+  <!-- Subtle top accent bar -->
+  <rect x="0" y="0" width="1080" height="6" fill="#650A41"/>
+
+  <!-- Logo group -->
+  <g transform="translate(48, 48)">
+    <rect width="48" height="48" rx="8" fill="#650A41"/>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-weight="700" font-size="26" fill="#FFFFFF" text-anchor="middle">S</text>
+    <text x="64" y="34" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#650A41">SPRINTO</text>
+  </g>
+
+  <!-- Pipeline track background -->
+  <rect x="120" y="480" width="840" height="8" rx="4" fill="#3A0A2C"/>
+
+  <!-- Pipeline dots -->
+  <circle cx="120" cy="484" r="10" fill="#650A41"/>
+  <circle cx="380" cy="484" r="10" fill="#650A41"/>
+  <circle cx="640" cy="484" r="10" fill="#DDF07E"/>
+  <circle cx="900" cy="484" r="10" fill="#3A0A2C"/>
+
+  <!-- Pipeline stage labels -->
+  <text x="120" y="510" font-family="Arial, sans-serif" font-size="18" fill="#6B3A5C" text-anchor="middle">Prospect</text>
+  <text x="380" y="510" font-family="Arial, sans-serif" font-size="18" fill="#E8E0E6" text-anchor="middle">Security Review</text>
+  <text x="640" y="510" font-family="Arial, sans-serif" font-size="18" fill="#DDF07E" text-anchor="middle" font-weight="700">Deal Closed</text>
+  <text x="900" y="510" font-family="Arial, sans-serif" font-size="18" fill="#6B3A5C" text-anchor="middle">Renewal</text>
+
+  <!-- LEFT CARD: Security Review - Blocked -->
+  <rect x="200" y="270" width="280" height="180" rx="16" fill="#2E0A22"/>
+  <rect x="200" y="270" width="280" height="6" rx="8" fill="#650A41"/>
+
+  <!-- Lock icon on left card -->
+  <!-- Lock body -->
+  <rect x="326" y="310" width="28" height="22" rx="4" fill="#E8E0E6"/>
+  <!-- Lock shackle -->
+  <rect x="334" y="298" width="12" height="18" rx="6" fill="none" stroke="#E8E0E6" stroke-width="3"/>
+  <!-- Keyhole -->
+  <circle cx="340" cy="319" r="3" fill="#2E0A22"/>
+  <rect x="338" y="321" width="4" height="5" fill="#2E0A22"/>
+
+  <!-- Blocked label -->
+  <rect x="242" y="344" width="96" height="26" rx="6" fill="#650A41"/>
+  <text x="290" y="362" font-family="Arial, sans-serif" font-size="13" fill="#F6F5F2" text-anchor="middle" font-weight="600">BLOCKED</text>
+
+  <!-- Left card title -->
+  <text x="340" y="398" font-family="Arial, sans-serif" font-size="16" fill="#E8E0E6" text-anchor="middle" font-weight="600">Security Review</text>
+  <text x="340" y="420" font-family="Arial, sans-serif" font-size="13" fill="#9B6B8A" text-anchor="middle">Waiting on questionnaire</text>
+
+  <!-- ARROW between cards -->
+  <!-- Arrow shaft -->
+  <rect x="500" y="350" width="80" height="5" rx="2" fill="#DDF07E"/>
+  <!-- Arrow head -->
+  <polygon points="580,337 604,352 580,367" fill="#DDF07E"/>
+
+  <!-- RIGHT CARD: Deal Closed -->
+  <rect x="600" y="270" width="280" height="180" rx="16" fill="#DDF07E"/>
+
+  <!-- Checkmark circle -->
+  <circle cx="740" cy="318" r="22" fill="#1F0214"/>
+  <!-- Checkmark -->
+  <polyline points="729,318 737,326 753,308" fill="none" stroke="#DDF07E" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Deal Closed label -->
+  <rect x="662" y="344" width="96" height="26" rx="6" fill="#1F0214"/>
+  <text x="710" y="362" font-family="Arial, sans-serif" font-size="13" fill="#DDF07E" text-anchor="middle" font-weight="700">CLOSED</text>
+
+  <!-- Right card title -->
+  <text x="740" y="398" font-family="Arial, sans-serif" font-size="16" fill="#1F0214" text-anchor="middle" font-weight="700">Deal Closed</text>
+  <text x="740" y="420" font-family="Arial, sans-serif" font-size="13" fill="#3D4A00" text-anchor="middle">SOC 2 delivered</text>
+
+  <!-- Sprinto badge on right card -->
+  <rect x="685" y="432" width="110" height="10" rx="3" fill="#1F0214" opacity="0.15"/>
+
+  <!-- Decorative corner accent -->
+  <rect x="960" y="0" width="120" height="120" fill="#650A41" opacity="0.18"/>
+  <rect x="1020" y="0" width="60" height="60" fill="#650A41" opacity="0.18"/>
+
+  <!-- HEADLINE -->
+  <text x="540" y="600" font-family="Arial, sans-serif" font-weight="800" font-size="68" fill="#FFFFFF" text-anchor="middle">Turn compliance into</text>
+  <text x="540" y="682" font-family="Arial, sans-serif" font-weight="800" font-size="68" fill="#DDF07E" text-anchor="middle" font-style="italic">a sales advantage.</text>
+
+  <!-- Divider line -->
+  <rect x="390" y="710" width="300" height="3" rx="2" fill="#650A41"/>
+
+  <!-- BODY TEXT -->
+  <text x="540" y="760" font-family="Arial, sans-serif" font-size="28" fill="#E8E0E6" text-anchor="middle">Stop losing enterprise deals to security questionnaires.</text>
+  <text x="540" y="800" font-family="Arial, sans-serif" font-size="28" fill="#9B6B8A" text-anchor="middle">Get audit-ready in weeks, not months.</text>
+
+  <!-- Trust badge row -->
+  <rect x="370" y="840" width="120" height="36" rx="8" fill="#2E0A22"/>
+  <text x="430" y="863" font-family="Arial, sans-serif" font-size="14" fill="#E8E0E6" text-anchor="middle" font-weight="600">SOC 2</text>
+
+  <rect x="504" y="840" width="120" height="36" rx="8" fill="#2E0A22"/>
+  <text x="564" y="863" font-family="Arial, sans-serif" font-size="14" fill="#E8E0E6" text-anchor="middle" font-weight="600">ISO 27001</text>
+
+  <rect x="638" y="840" width="120" height="36" rx="8" fill="#2E0A22"/>
+  <text x="698" y="863" font-family="Arial, sans-serif" font-size="14" fill="#E8E0E6" text-anchor="middle" font-weight="600">GDPR</text>
+
+  <!-- CTA Button -->
+  <rect x="400" y="918" width="280" height="56" rx="8" fill="#DDF07E"/>
+  <text x="540" y="953" font-family="Arial, sans-serif" font-weight="600" font-size="20" fill="#1F0214" text-anchor="middle">Book a Demo</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="1074" width="1080" height="6" fill="#650A41"/>
+
+</svg>

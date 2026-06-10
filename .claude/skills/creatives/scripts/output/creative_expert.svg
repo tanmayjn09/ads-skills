@@ -1,0 +1,111 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F6F5F2"/>
+
+  <!-- Logo group top-left -->
+  <g transform="translate(48, 48)">
+    <rect width="48" height="48" rx="8" fill="#650A41"/>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-weight="700" font-size="26" fill="#FFFFFF" text-anchor="middle">S</text>
+    <text x="64" y="34" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#650A41">SPRINTO</text>
+  </g>
+
+  <!-- Decorative top-right accent block -->
+  <rect x="900" y="0" width="180" height="8" fill="#DDF07E"/>
+
+  <!-- Decorative bottom-left accent block -->
+  <rect x="0" y="1072" width="180" height="8" fill="#650A41"/>
+
+  <!-- Section label -->
+  <rect x="48" y="148" width="220" height="36" rx="6" fill="#1F0214"/>
+  <text x="158" y="172" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#DDF07E" text-anchor="middle" letter-spacing="2">COMPLIANCE EXPERTS</text>
+
+  <!-- Headline -->
+  <text x="48" y="250" font-family="Arial, sans-serif" font-weight="800" font-size="72" fill="#1F0214">Expert support</text>
+  <text x="48" y="334" font-family="Arial, sans-serif" font-weight="800" font-size="72" fill="#650A41" font-style="italic">included.</text>
+  <text x="48" y="418" font-family="Arial, sans-serif" font-weight="700" font-size="52" fill="#1F0214">No consultant fees.</text>
+
+  <!-- Body text -->
+  <text x="48" y="476" font-family="Arial, sans-serif" font-size="24" fill="#555555">Two dedicated compliance leads at no extra cost.</text>
+  <text x="48" y="510" font-family="Arial, sans-serif" font-size="24" fill="#555555">Pre-vetted auditor network included.</text>
+
+  <!-- Divider line -->
+  <rect x="48" y="546" width="984" height="3" fill="#E0DCE0"/>
+
+  <!-- LEFT CARD: Consultant - rejected -->
+  <rect x="48" y="572" width="464" height="340" rx="16" fill="#FFFFFF"/>
+  <!-- Red top stripe -->
+  <rect x="48" y="572" width="464" height="10" rx="8" fill="#E53E3E"/>
+  <rect x="48" y="578" width="464" height="4" fill="#E53E3E"/>
+
+  <!-- X mark circle -->
+  <circle cx="148" cy="680" r="48" fill="#FEE2E2"/>
+  <!-- X lines -->
+  <line x1="124" y1="656" x2="172" y2="704" stroke="#E53E3E" stroke-width="8" stroke-linecap="round"/>
+  <line x1="172" y1="656" x2="124" y2="704" stroke="#E53E3E" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Card label -->
+  <text x="218" y="650" font-family="Arial, sans-serif" font-weight="800" font-size="32" fill="#1F0214">$300/hr</text>
+  <text x="218" y="690" font-family="Arial, sans-serif" font-weight="700" font-size="26" fill="#444444">Consultant</text>
+
+  <!-- Bullet points left card -->
+  <circle cx="230" cy="738" r="5" fill="#E53E3E"/>
+  <text x="246" y="744" font-family="Arial, sans-serif" font-size="20" fill="#555555">Billed by the hour</text>
+  <circle cx="230" cy="772" r="5" fill="#E53E3E"/>
+  <text x="246" y="778" font-family="Arial, sans-serif" font-size="20" fill="#555555">Availability not guaranteed</text>
+  <circle cx="230" cy="806" r="5" fill="#E53E3E"/>
+  <text x="246" y="812" font-family="Arial, sans-serif" font-size="20" fill="#555555">Extra costs add up fast</text>
+
+  <!-- Rejected stamp -->
+  <rect x="300" y="582" width="180" height="44" rx="6" fill="#E53E3E" transform="rotate(-12, 390, 604)"/>
+  <text x="390" y="610" font-family="Arial, sans-serif" font-weight="800" font-size="20" fill="#FFFFFF" text-anchor="middle" transform="rotate(-12, 390, 604)">EXTRA COST</text>
+
+  <!-- RIGHT CARD: Sprinto Expert - included -->
+  <rect x="568" y="572" width="464" height="340" rx="16" fill="#650A41"/>
+  <!-- Green top stripe -->
+  <rect x="568" y="572" width="464" height="10" rx="8" fill="#DDF07E"/>
+  <rect x="568" y="578" width="464" height="4" fill="#DDF07E"/>
+
+  <!-- Checkmark circle -->
+  <circle cx="668" cy="680" r="48" fill="#DDF07E"/>
+  <!-- Checkmark -->
+  <polyline points="644,680 660,698 696,658" fill="none" stroke="#1F0214" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Card label -->
+  <text x="738" y="645" font-family="Arial, sans-serif" font-weight="800" font-size="28" fill="#DDF07E">Sprinto Expert</text>
+  <text x="738" y="683" font-family="Arial, sans-serif" font-weight="700" font-size="26" fill="#E8E0E6">— Included</text>
+
+  <!-- Bullet points right card -->
+  <circle cx="750" cy="738" r="5" fill="#DDF07E"/>
+  <text x="766" y="744" font-family="Arial, sans-serif" font-size="20" fill="#E8E0E6">Dedicated compliance lead</text>
+  <circle cx="750" cy="772" r="5" fill="#DDF07E"/>
+  <text x="766" y="778" font-family="Arial, sans-serif" font-size="20" fill="#E8E0E6">Always available, no extra fee</text>
+  <circle cx="750" cy="806" r="5" fill="#DDF07E"/>
+  <text x="766" y="812" font-family="Arial, sans-serif" font-size="20" fill="#E8E0E6">Pre-vetted auditor network</text>
+
+  <!-- Included badge -->
+  <rect x="830" y="584" width="156" height="40" rx="20" fill="#DDF07E"/>
+  <text x="908" y="609" font-family="Arial, sans-serif" font-weight="800" font-size="17" fill="#1F0214" text-anchor="middle">✓ INCLUDED</text>
+
+  <!-- VS divider between cards -->
+  <circle cx="540" cy="742" r="30" fill="#1F0214"/>
+  <text x="540" y="750" font-family="Arial, sans-serif" font-weight="800" font-size="20" fill="#F6F5F2" text-anchor="middle">VS</text>
+
+  <!-- Stats row -->
+  <rect x="48" y="940" width="300" height="80" rx="12" fill="#1F0214"/>
+  <text x="198" y="972" font-family="Arial, sans-serif" font-weight="800" font-size="28" fill="#DDF07E" text-anchor="middle">2 Leads</text>
+  <text x="198" y="1002" font-family="Arial, sans-serif" font-size="16" fill="#E8E0E6" text-anchor="middle">Dedicated Compliance Experts</text>
+
+  <rect x="390" y="940" width="300" height="80" rx="12" fill="#1F0214"/>
+  <text x="540" y="972" font-family="Arial, sans-serif" font-weight="800" font-size="28" fill="#DDF07E" text-anchor="middle">$0 Extra</text>
+  <text x="540" y="1002" font-family="Arial, sans-serif" font-size="16" fill="#E8E0E6" text-anchor="middle">No Consultant Fees Ever</text>
+
+  <rect x="732" y="940" width="300" height="80" rx="12" fill="#1F0214"/>
+  <text x="882" y="972" font-family="Arial, sans-serif" font-weight="800" font-size="28" fill="#DDF07E" text-anchor="middle">100+</text>
+  <text x="882" y="1002" font-family="Arial, sans-serif" font-size="16" fill="#E8E0E6" text-anchor="middle">Pre-Vetted Auditors</text>
+
+  <!-- CTA Button -->
+  <rect x="390" y="1042" width="300" height="56" rx="8" fill="#DDF07E"/>
+  <text x="540" y="1077" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#1F0214" text-anchor="middle">Book a Demo →</text>
+
+</svg>

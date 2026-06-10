@@ -1,0 +1,307 @@
+============================================================
+LINKEDIN AD LIBRARY - COMPETITOR RESEARCH
+============================================================
+
+========================================
+VANTA - 55 ads found
+========================================
+Company URL: https://www.linkedin.com/company/35462987
+Ad Payer: Vanta Inc.
+
+  [SPONSORED_VIDEO] - 3 ads
+  [SPONSORED_STATUS_UPDATE] - 52 ads
+
+Ad URLs:
+  - https://www.linkedin.com/ad-library/detail/1432423366
+  - https://www.linkedin.com/ad-library/detail/1431601756
+  - https://www.linkedin.com/ad-library/detail/1431406986
+  - https://www.linkedin.com/ad-library/detail/1426751136
+  - https://www.linkedin.com/ad-library/detail/1424684176
+  - https://www.linkedin.com/ad-library/detail/1424843676
+  - https://www.linkedin.com/ad-library/detail/1424813176
+  - https://www.linkedin.com/ad-library/detail/1424843696
+  - https://www.linkedin.com/ad-library/detail/1424823376
+  - https://www.linkedin.com/ad-library/detail/1424883026
+  - https://www.linkedin.com/ad-library/detail/1424803606
+  - https://www.linkedin.com/ad-library/detail/1424693686
+  - https://www.linkedin.com/ad-library/detail/1424653446
+  - https://www.linkedin.com/ad-library/detail/1424853406
+  - https://www.linkedin.com/ad-library/detail/1421224046
+  - https://www.linkedin.com/ad-library/detail/1421116956
+  - https://www.linkedin.com/ad-library/detail/1420503526
+  - https://www.linkedin.com/ad-library/detail/1420343806
+  - https://www.linkedin.com/ad-library/detail/1420573476
+  - https://www.linkedin.com/ad-library/detail/1414531876
+  - https://www.linkedin.com/ad-library/detail/1414541736
+  - https://www.linkedin.com/ad-library/detail/1411459696
+  - https://www.linkedin.com/ad-library/detail/1411249926
+  - https://www.linkedin.com/ad-library/detail/1411218126
+  - https://www.linkedin.com/ad-library/detail/1411249916
+  - https://www.linkedin.com/ad-library/detail/1411218136
+  - https://www.linkedin.com/ad-library/detail/1411069076
+  - https://www.linkedin.com/ad-library/detail/1411198516
+  - https://www.linkedin.com/ad-library/detail/1411240036
+  - https://www.linkedin.com/ad-library/detail/1411058746
+  - https://www.linkedin.com/ad-library/detail/1411029526
+  - https://www.linkedin.com/ad-library/detail/1411239996
+  - https://www.linkedin.com/ad-library/detail/1411118646
+  - https://www.linkedin.com/ad-library/detail/1411079126
+  - https://www.linkedin.com/ad-library/detail/1411198466
+  - https://www.linkedin.com/ad-library/detail/1411079116
+  - https://www.linkedin.com/ad-library/detail/1411029486
+  - https://www.linkedin.com/ad-library/detail/1411004006
+  - https://www.linkedin.com/ad-library/detail/1411142806
+  - https://www.linkedin.com/ad-library/detail/1411198446
+  - https://www.linkedin.com/ad-library/detail/1411093076
+  - https://www.linkedin.com/ad-library/detail/1410998776
+  - https://www.linkedin.com/ad-library/detail/1411172816
+  - https://www.linkedin.com/ad-library/detail/1411093066
+  - https://www.linkedin.com/ad-library/detail/1410998766
+  - https://www.linkedin.com/ad-library/detail/1411093056
+  - https://www.linkedin.com/ad-library/detail/1411063276
+  - https://www.linkedin.com/ad-library/detail/1411013806
+  - https://www.linkedin.com/ad-library/detail/1409572416
+  - https://www.linkedin.com/ad-library/detail/1408721006
+  - https://www.linkedin.com/ad-library/detail/1408584716
+  - https://www.linkedin.com/ad-library/detail/1409051076
+  - https://www.linkedin.com/ad-library/detail/1408862876
+  - https://www.linkedin.com/ad-library/detail/1408682676
+  - https://www.linkedin.com/ad-library/detail/1408711566
+
+========================================
+DRATA - 50 ads found
+========================================
+Company URL: https://www.linkedin.com/company/69007278
+Ad Payer: Drata Inc.
+
+  [SPONSORED_STATUS_UPDATE] - 48 ads
+  [SPONSORED_VIDEO] - 2 ads
+
+Ad URLs:
+  - https://www.linkedin.com/ad-library/detail/1419251506
+  - https://www.linkedin.com/ad-library/detail/1411351866
+  - https://www.linkedin.com/ad-library/detail/1411392086
+  - https://www.linkedin.com/ad-library/detail/1411321746
+  - https://www.linkedin.com/ad-library/detail/1411431556
+  - https://www.linkedin.com/ad-library/detail/1430645416
+  - https://www.linkedin.com/ad-library/detail/1411431546
+  - https://www.linkedin.com/ad-library/detail/1411381696
+  - https://www.linkedin.com/ad-library/detail/1430774176
+  - https://www.linkedin.com/ad-library/detail/1411411926
+  - https://www.linkedin.com/ad-library/detail/1411282206
+  - https://www.linkedin.com/ad-library/detail/1404279596
+  - https://www.linkedin.com/ad-library/detail/1404279586
+  - https://www.linkedin.com/ad-library/detail/1398670296
+  - https://www.linkedin.com/ad-library/detail/1398487396
+  - https://www.linkedin.com/ad-library/detail/1411381676
+  - https://www.linkedin.com/ad-library/detail/1398660316
+  - https://www.linkedin.com/ad-library/detail/1397770196
+  - https://www.linkedin.com/ad-library/detail/1404379146
+  - https://www.linkedin.com/ad-library/detail/1404447296
+  - https://www.linkedin.com/ad-library/detail/1397637906
+  - https://www.linkedin.com/ad-library/detail/1397499456
+  - https://www.linkedin.com/ad-library/detail/1397651516
+  - https://www.linkedin.com/ad-library/detail/1397597686
+  - https://www.linkedin.com/ad-library/detail/1397597696
+  - https://www.linkedin.com/ad-library/detail/1397780226
+  - https://www.linkedin.com/ad-library/detail/1397800036
+  - https://www.linkedin.com/ad-library/detail/1397770176
+  - https://www.linkedin.com/ad-library/detail/1397568946
+  - https://www.linkedin.com/ad-library/detail/1397568956
+  - https://www.linkedin.com/ad-library/detail/1397519246
+  - https://www.linkedin.com/ad-library/detail/1393761056
+  - https://www.linkedin.com/ad-library/detail/1397642886
+  - https://www.linkedin.com/ad-library/detail/1390985596
+  - https://www.linkedin.com/ad-library/detail/1393800716
+  - https://www.linkedin.com/ad-library/detail/1390896966
+  - https://www.linkedin.com/ad-library/detail/1393741266
+  - https://www.linkedin.com/ad-library/detail/1393810496
+  - https://www.linkedin.com/ad-library/detail/1393711456
+  - https://www.linkedin.com/ad-library/detail/1390848296
+  - https://www.linkedin.com/ad-library/detail/1390524146
+  - https://www.linkedin.com/ad-library/detail/1390355636
+  - https://www.linkedin.com/ad-library/detail/1390514166
+  - https://www.linkedin.com/ad-library/detail/1381671796
+  - https://www.linkedin.com/ad-library/detail/1390551486
+  - https://www.linkedin.com/ad-library/detail/1390542696
+  - https://www.linkedin.com/ad-library/detail/1381502386
+  - https://www.linkedin.com/ad-library/detail/1390494066
+  - https://www.linkedin.com/ad-library/detail/1390414736
+  - https://www.linkedin.com/ad-library/detail/1390394456
+
+========================================
+SECUREFRAME - 38 ads found
+========================================
+Company URL: https://www.linkedin.com/company/36166746
+Ad Payer: Secureframe, Inc.
+
+  [SPONSORED_STATUS_UPDATE] - 33 ads
+  [SPONSORED_UPDATE_CAROUSEL] - 4 ads
+  [SPONSORED_VIDEO] - 1 ads
+
+Ad URLs:
+  - https://www.linkedin.com/ad-library/detail/1419259646
+  - https://www.linkedin.com/ad-library/detail/1398146426
+  - https://www.linkedin.com/ad-library/detail/1411467756
+  - https://www.linkedin.com/ad-library/detail/1398156946
+  - https://www.linkedin.com/ad-library/detail/1411467766
+  - https://www.linkedin.com/ad-library/detail/1411570256
+  - https://www.linkedin.com/ad-library/detail/1398356566
+  - https://www.linkedin.com/ad-library/detail/1384495636
+  - https://www.linkedin.com/ad-library/detail/1398236416
+  - https://www.linkedin.com/ad-library/detail/1411475236
+  - https://www.linkedin.com/ad-library/detail/1384506036
+  - https://www.linkedin.com/ad-library/detail/1377329136
+  - https://www.linkedin.com/ad-library/detail/1384409466
+  - https://www.linkedin.com/ad-library/detail/1370248936
+  - https://www.linkedin.com/ad-library/detail/1377309676
+  - https://www.linkedin.com/ad-library/detail/1377348596
+  - https://www.linkedin.com/ad-library/detail/1377531366
+  - https://www.linkedin.com/ad-library/detail/1384552736
+  - https://www.linkedin.com/ad-library/detail/1377560536
+  - https://www.linkedin.com/ad-library/detail/1377464726
+  - https://www.linkedin.com/ad-library/detail/1303722606
+  - https://www.linkedin.com/ad-library/detail/1323419846
+  - https://www.linkedin.com/ad-library/detail/1323685526
+  - https://www.linkedin.com/ad-library/detail/1322822356
+  - https://www.linkedin.com/ad-library/detail/1303521866
+  - https://www.linkedin.com/ad-library/detail/1303521856
+  - https://www.linkedin.com/ad-library/detail/1303722596
+  - https://www.linkedin.com/ad-library/detail/1304121796
+  - https://www.linkedin.com/ad-library/detail/897595256
+  - https://www.linkedin.com/ad-library/detail/1322222386
+  - https://www.linkedin.com/ad-library/detail/897555016
+  - https://www.linkedin.com/ad-library/detail/897545566
+  - https://www.linkedin.com/ad-library/detail/897535086
+  - https://www.linkedin.com/ad-library/detail/897595246
+  - https://www.linkedin.com/ad-library/detail/897397076
+  - https://www.linkedin.com/ad-library/detail/897466226
+  - https://www.linkedin.com/ad-library/detail/897406946
+  - https://www.linkedin.com/ad-library/detail/897516006
+
+========================================
+THOROPASS - 50 ads found
+========================================
+Company URL: https://www.linkedin.com/company/49339985
+Ad Payer: Thoropass, Inc.
+
+  [SPONSORED_STATUS_UPDATE] - 39 ads
+  [SPONSORED_UPDATE_CAROUSEL] - 2 ads
+  [SPONSORED_VIDEO] - 9 ads
+
+Ad URLs:
+  - https://www.linkedin.com/ad-library/detail/1306299784
+  - https://www.linkedin.com/ad-library/detail/1305299394
+  - https://www.linkedin.com/ad-library/detail/1292521724
+  - https://www.linkedin.com/ad-library/detail/1306299774
+  - https://www.linkedin.com/ad-library/detail/1292521854
+  - https://www.linkedin.com/ad-library/detail/1306799684
+  - https://www.linkedin.com/ad-library/detail/1269520673
+  - https://www.linkedin.com/ad-library/detail/1293905284
+  - https://www.linkedin.com/ad-library/detail/1267027493
+  - https://www.linkedin.com/ad-library/detail/1268327903
+  - https://www.linkedin.com/ad-library/detail/1194779943
+  - https://www.linkedin.com/ad-library/detail/1193197513
+  - https://www.linkedin.com/ad-library/detail/1293808114
+  - https://www.linkedin.com/ad-library/detail/1214088003
+  - https://www.linkedin.com/ad-library/detail/1213288563
+  - https://www.linkedin.com/ad-library/detail/1212989153
+  - https://www.linkedin.com/ad-library/detail/1182709313
+  - https://www.linkedin.com/ad-library/detail/1214488593
+  - https://www.linkedin.com/ad-library/detail/1213788533
+  - https://www.linkedin.com/ad-library/detail/1293319274
+  - https://www.linkedin.com/ad-library/detail/1011191286
+  - https://www.linkedin.com/ad-library/detail/969301293
+  - https://www.linkedin.com/ad-library/detail/1115925313
+  - https://www.linkedin.com/ad-library/detail/1184194243
+  - https://www.linkedin.com/ad-library/detail/1012890636
+  - https://www.linkedin.com/ad-library/detail/1183795213
+  - https://www.linkedin.com/ad-library/detail/1180285623
+  - https://www.linkedin.com/ad-library/detail/1179685513
+  - https://www.linkedin.com/ad-library/detail/969420993
+  - https://www.linkedin.com/ad-library/detail/1122187913
+  - https://www.linkedin.com/ad-library/detail/915136283
+  - https://www.linkedin.com/ad-library/detail/863525273
+  - https://www.linkedin.com/ad-library/detail/864021513
+  - https://www.linkedin.com/ad-library/detail/859911163
+  - https://www.linkedin.com/ad-library/detail/969351103
+  - https://www.linkedin.com/ad-library/detail/857683363
+  - https://www.linkedin.com/ad-library/detail/969340983
+  - https://www.linkedin.com/ad-library/detail/915195233
+  - https://www.linkedin.com/ad-library/detail/863614573
+  - https://www.linkedin.com/ad-library/detail/915096473
+  - https://www.linkedin.com/ad-library/detail/836843453
+  - https://www.linkedin.com/ad-library/detail/836902233
+  - https://www.linkedin.com/ad-library/detail/857683353
+  - https://www.linkedin.com/ad-library/detail/857673783
+  - https://www.linkedin.com/ad-library/detail/836468853
+  - https://www.linkedin.com/ad-library/detail/857743483
+  - https://www.linkedin.com/ad-library/detail/857654083
+  - https://www.linkedin.com/ad-library/detail/836803233
+  - https://www.linkedin.com/ad-library/detail/857624543
+  - https://www.linkedin.com/ad-library/detail/836872953
+
+========================================
+SPRINTO - 50 ads found
+========================================
+Company URL: https://www.linkedin.com/company/31215334
+Ad Payer: Sprint Inc.
+
+  [SPONSORED_STATUS_UPDATE] - 32 ads
+  [SPONSORED_UPDATE_CAROUSEL] - 2 ads
+  [SPONSORED_VIDEO] - 8 ads
+  [SPONSORED_INMAILS] - 4 ads
+  [$UNKNOWN] - 1 ads
+  [SPONSORED_UPDATE_NATIVE_DOCUMENT] - 3 ads
+
+Ad URLs:
+  - https://www.linkedin.com/ad-library/detail/1428764103
+  - https://www.linkedin.com/ad-library/detail/1428793713
+  - https://www.linkedin.com/ad-library/detail/1428913383
+  - https://www.linkedin.com/ad-library/detail/1428954133
+  - https://www.linkedin.com/ad-library/detail/1428823413
+  - https://www.linkedin.com/ad-library/detail/1428814213
+  - https://www.linkedin.com/ad-library/detail/1428975403
+  - https://www.linkedin.com/ad-library/detail/1428874163
+  - https://www.linkedin.com/ad-library/detail/1428973693
+  - https://www.linkedin.com/ad-library/detail/1428885543
+  - https://www.linkedin.com/ad-library/detail/1209989913
+  - https://www.linkedin.com/ad-library/detail/1257792423
+  - https://www.linkedin.com/ad-library/detail/1259391113
+  - https://www.linkedin.com/ad-library/detail/1209989923
+  - https://www.linkedin.com/ad-library/detail/1210390163
+  - https://www.linkedin.com/ad-library/detail/1259392233
+  - https://www.linkedin.com/ad-library/detail/1258090363
+  - https://www.linkedin.com/ad-library/detail/1428405463
+  - https://www.linkedin.com/ad-library/detail/1210490193
+  - https://www.linkedin.com/ad-library/detail/1428425193
+  - https://www.linkedin.com/ad-library/detail/1195426973
+  - https://www.linkedin.com/ad-library/detail/1193133143
+  - https://www.linkedin.com/ad-library/detail/1203094703
+  - https://www.linkedin.com/ad-library/detail/1201697023
+  - https://www.linkedin.com/ad-library/detail/1196295323
+  - https://www.linkedin.com/ad-library/detail/1202215743
+  - https://www.linkedin.com/ad-library/detail/1200937003
+  - https://www.linkedin.com/ad-library/detail/1203094693
+  - https://www.linkedin.com/ad-library/detail/1200606723
+  - https://www.linkedin.com/ad-library/detail/1195038753
+  - https://www.linkedin.com/ad-library/detail/1190309273
+  - https://www.linkedin.com/ad-library/detail/1194979943
+  - https://www.linkedin.com/ad-library/detail/1189510533
+  - https://www.linkedin.com/ad-library/detail/1190999413
+  - https://www.linkedin.com/ad-library/detail/1188011883
+  - https://www.linkedin.com/ad-library/detail/1190605623
+  - https://www.linkedin.com/ad-library/detail/1194979933
+  - https://www.linkedin.com/ad-library/detail/1190306753
+  - https://www.linkedin.com/ad-library/detail/1193128803
+  - https://www.linkedin.com/ad-library/detail/1189210923
+  - https://www.linkedin.com/ad-library/detail/1188709033
+  - https://www.linkedin.com/ad-library/detail/1190396013
+  - https://www.linkedin.com/ad-library/detail/1190406683
+  - https://www.linkedin.com/ad-library/detail/1188198743
+  - https://www.linkedin.com/ad-library/detail/1191179833
+  - https://www.linkedin.com/ad-library/detail/1189508163
+  - https://www.linkedin.com/ad-library/detail/1190887143
+  - https://www.linkedin.com/ad-library/detail/1190898043
+  - https://www.linkedin.com/ad-library/detail/1188709023
+  - https://www.linkedin.com/ad-library/detail/1189197943

@@ -1053,3 +1053,184 @@ payload = {"patch": {"$delete": ["totalBudget"]}}
 - `oauth_server.py` - OAuth token generation
 - `generate_audit_report.py` - Campaign audit reports
 - `get_creatives.py` / `filter_creatives.py` - Creative management
+
+---
+
+## Creative Type Fetch Paths
+
+Complete map of all 6 LinkedIn creative types — how to fetch thumbnail, name, and media for each. Discovered while building the performance report (`generate_pmax_images.py`).
+
+### Active creative detection
+
+Use a 7-day analytics window to find currently-running creatives. Only ~27 creatives may be active at any time vs 1000+ all-time.
+
+```python
+from urllib.parse import quote
+d7  = (today - timedelta(days=7)).isoformat()
+enc = quote(f"urn:li:sponsoredAccount:{ACCT_ID}", safe="")
+dr  = f"(start:(year:{d7[:4]},month:{int(d7[5:7])},day:{int(d7[8:])}),end:(year:{today.year},month:{today.month},day:{today.day}))"
+qstr = f"q=analytics&pivot=CREATIVE&timeGranularity=ALL&dateRange={dr}&accounts=List({enc})&fields=impressions,pivotValues"
+r = requests.get(f"https://api.linkedin.com/rest/adAnalytics?{qstr}", headers=LI_HDR_REST)
+active_cids = [str(el['pivotValues'][0].split(':')[-1]) for el in r.json().get('elements', []) if el.get('impressions', 0) > 0]
+```
+
+### Headers
+
+```python
+LI_HDR_V2   = {"Authorization": f"Bearer {TOKEN}", "X-Restli-Protocol-Version": "2.0.0"}
+LI_HDR_REST = {**LI_HDR_V2, "LinkedIn-Version": "202601"}
+```
+
+---
+
+### Type 1 — `SPONSORED_STATUS_UPDATE` (Single Image)
+
+```
+v2/adCreativesV2/{cid}
+  → variables.data.*.share (urn:li:share:xxx)
+  → v2/shares/{share_id}
+  → content.contentEntities[0].thumbnails[0].resolvedUrl  ← thumbnail
+```
+
+- **Name:** `share.subject` or `share.text.text[:60]`
+- **Display:** Image thumbnail, click to zoom
+
+---
+
+### Type 2 — `SPONSORED_VIDEO` (Video Ad)
+
+**Primary path (regular video):**
+```
+v2/adCreativesV2/{cid}
+  → reference (urn:li:ugcPost:xxx)
+  → rest/posts/{ugcPost_urn}
+  → content.media.id (urn:li:video:xxx)
+  → rest/videos/{video_urn}
+  → thumbnail + downloadUrl  ← direct MP4 URL
+```
+
+**Fallback path (thought leadership — ugcPost returns 403):**
+```
+v2/adCreativesV2/{cid}
+  → variables.data.SponsoredVideoCreativeVariables.mediaAsset  ← video asset URN
+  → extract ID, build urn:li:video:{id}
+  → rest/videos/{video_urn}
+  → thumbnail + downloadUrl
+```
+
+**Post URL fallback:**
+```
+variables.data.*.activity (urn:li:activity:xxx)
+→ https://www.linkedin.com/feed/update/{activity_urn}/
+```
+
+- **Display:** Thumbnail with play-button overlay. Click opens `<video>` element with `downloadUrl` (direct MP4). Store `video_url` in creative dict and `LI_VIDEO_DATA` JS constant.
+
+```python
+if not img_url:
+    for vk, vv in vdata.items():
+        media_asset = vv.get('mediaAsset', '')
+        act_urn     = vv.get('activity', '')
+        if media_asset:
+            vid_id  = media_asset.split(':')[-1]
+            vid_urn = f'urn:li:video:{vid_id}'
+            rv = requests.get(f"https://api.linkedin.com/rest/videos/{quote(vid_urn, safe='')}", headers=LI_HDR_REST)
+            if rv.ok:
+                img_url   = rv.json().get('thumbnail', '')
+                video_url = rv.json().get('downloadUrl', '')
+        if act_urn:
+            post_url = f"https://www.linkedin.com/feed/update/{act_urn}/"
+        break
+```
+
+---
+
+### Type 3 — `SPONSORED_UPDATE_CAROUSEL` (Carousel)
+
+```
+v2/adCreativesV2/{cid}
+  → reference (urn:li:share:xxx)
+  → rest/posts/{share_urn}
+  → content.carousel.cards[*]
+  → cards[i].media.id (urn:li:image:xxx)
+  → rest/images/{image_urn}
+  → downloadUrl  ← card image
+```
+
+- **Cards also have:** `cards[i].media.title`, `cards[i].landingPage`
+- **Display:** First card as cover with "Carousel" badge. Click opens lightbox showing all cards as horizontal strip, each linking to `landingPage`.
+- Store all card data in `li_carousel_b64[cid]` and `CAROUSEL_DATA` JS constant.
+
+```python
+rp = requests.get(f"https://api.linkedin.com/rest/posts/{quote(ref_urn, safe='')}", headers=LI_HDR_REST)
+cards = rp.json().get('content', {}).get('carousel', {}).get('cards', [])
+for card in cards:
+    img_id = card.get('media', {}).get('id', '')
+    if img_id:
+        ri = requests.get(f"https://api.linkedin.com/rest/images/{quote(img_id, safe='')}", headers=LI_HDR_REST)
+        if ri.ok:
+            carousel_cards.append({'url': ri.json().get('downloadUrl', ''), 'title': card.get('media', {}).get('title', ''), 'link': card.get('landingPage', '')})
+if carousel_cards:
+    img_url = carousel_cards[0]['url']
+```
+
+---
+
+### Type 4 — `SPONSORED_UPDATE_LINKEDIN_ARTICLE` (Article / Thought Leadership)
+
+- ugcPost reference returns 403 — no thumbnail available via API.
+- **Post URL:** `variables.data.SponsoredUpdateCreativeVariables.activity` → `https://www.linkedin.com/feed/update/{activity_urn}/`
+- **Display:** Blue "Open Article ↗" placeholder. Click opens LinkedIn post URL in new tab.
+
+```python
+for vk, vv in vdata.items():
+    name    = vv.get('contentTitle', '') or 'LinkedIn Article'
+    act_urn = vv.get('activity', '')
+    if act_urn:
+        post_url = f"https://www.linkedin.com/feed/update/{act_urn}/"
+    break
+```
+
+---
+
+### Type 5 — `SPONSORED_UPDATE_NATIVE_DOCUMENT` (Document Ad)
+
+```
+v2/adCreativesV2/{cid}
+  → reference (ugcPost URN)
+  → rest/posts/{ugcPost_urn}
+  → commentary / content.media.title  ← name only
+```
+
+- No image available — document cover images are not accessible via API.
+- **Display:** Document icon placeholder (📄).
+
+---
+
+### Type 6 — `FOLLOW_COMPANY_V2`
+
+Skip entirely — no creative content to show.
+
+---
+
+### Creative deduplication (cross-campaign view)
+
+Same creative can run in multiple campaigns under different creative IDs but with the same thumbnail. Group by `img_url` to show one card with multiple campaign rows instead of duplicate cards.
+
+```python
+_li_groups = {}
+for cid, d in li_creatives.items():
+    key = d['img_url'] if d['img_url'] else f"__name__{d['name']}__{d['type']}"
+    _li_groups.setdefault(key, []).append(cid)
+```
+
+---
+
+### dotenv load order (CRITICAL)
+
+Load google-ads `.env` BEFORE linkedin-ads `.env`. The linkedin `.env` has placeholder values (`GOOGLE_ADS_DEVELOPER_TOKEN=your_developer_token`) that silently overwrite real credentials if loaded first.
+
+```python
+load_dotenv(Path('.claude/skills/google-ads/scripts/.env'))   # FIRST
+load_dotenv(Path('.claude/skills/linkedin-ads/scripts/.env')) # SECOND
+```

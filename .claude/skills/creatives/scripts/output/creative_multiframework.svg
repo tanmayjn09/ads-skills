@@ -1,0 +1,109 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="1080" height="1080" fill="#F6F5F2"/>
+
+<!-- Subtle grid pattern -->
+<rect x="0" y="0" width="1080" height="1080" fill="none"/>
+<line x1="0" y1="200" x2="1080" y2="200" stroke="#E0DDD9" stroke-width="1"/>
+<line x1="0" y1="400" x2="1080" y2="400" stroke="#E0DDD9" stroke-width="1"/>
+<line x1="0" y1="600" x2="1080" y2="600" stroke="#E0DDD9" stroke-width="1"/>
+<line x1="0" y1="800" x2="1080" y2="800" stroke="#E0DDD9" stroke-width="1"/>
+<line x1="200" y1="0" x2="200" y2="1080" stroke="#E0DDD9" stroke-width="1"/>
+<line x1="400" y1="0" x2="400" y2="1080" stroke="#E0DDD9" stroke-width="1"/>
+<line x1="600" y1="0" x2="600" y2="1080" stroke="#E0DDD9" stroke-width="1"/>
+<line x1="800" y1="0" x2="800" y2="1080" stroke="#E0DDD9" stroke-width="1"/>
+
+<!-- Logo group top-left -->
+<g transform="translate(48, 48)">
+  <rect width="48" height="48" rx="8" fill="#650A41"/>
+  <text x="24" y="34" font-family="Arial, sans-serif" font-weight="700" font-size="26" fill="#FFFFFF" text-anchor="middle">S</text>
+  <text x="64" y="34" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#650A41">SPRINTO</text>
+</g>
+
+<!-- Headline -->
+<text x="540" y="172" font-family="Arial, sans-serif" font-weight="800" font-size="72" fill="#1F0214" text-anchor="middle">4 frameworks.</text>
+<text x="540" y="252" font-family="Arial, sans-serif" font-weight="800" font-size="72" fill="#650A41" font-style="italic" text-anchor="middle">1 platform.</text>
+<text x="540" y="320" font-family="Arial, sans-serif" font-weight="700" font-size="52" fill="#1F0214" text-anchor="middle">No duplicate work.</text>
+
+<!-- 2x2 Badge Cards -->
+
+<!-- SOC 2 Card - top left -->
+<rect x="148" y="370" width="340" height="180" rx="16" fill="#650A41"/>
+<!-- Shield icon SOC 2 -->
+<polygon points="270,395 310,395 318,410 310,440 270,440 262,410" fill="#DDF07E" opacity="0.25"/>
+<text x="228" y="425" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="#DDF07E" letter-spacing="2">COMPLIANCE</text>
+<text x="228" y="465" font-family="Arial, sans-serif" font-weight="800" font-size="36" fill="#FFFFFF">SOC 2</text>
+<text x="228" y="495" font-family="Arial, sans-serif" font-weight="400" font-size="14" fill="#E8E0E6">Security &amp; Availability</text>
+<!-- Corner accent -->
+<rect x="438" y="370" width="50" height="50" rx="0" fill="#DDF07E" opacity="0.15"/>
+<rect x="448" y="380" width="30" height="4" rx="2" fill="#DDF07E"/>
+<rect x="448" y="390" width="20" height="4" rx="2" fill="#DDF07E"/>
+<rect x="448" y="400" width="25" height="4" rx="2" fill="#DDF07E"/>
+
+<!-- ISO 27001 Card - top right -->
+<rect x="592" y="370" width="340" height="180" rx="16" fill="#650A41"/>
+<rect x="592" y="370" width="50" height="50" rx="0" fill="#DDF07E" opacity="0.15"/>
+<rect x="602" y="380" width="30" height="4" rx="2" fill="#DDF07E"/>
+<rect x="602" y="390" width="20" height="4" rx="2" fill="#DDF07E"/>
+<rect x="602" y="400" width="25" height="4" rx="2" fill="#DDF07E"/>
+<text x="672" y="425" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="#DDF07E" letter-spacing="2">COMPLIANCE</text>
+<text x="672" y="465" font-family="Arial, sans-serif" font-weight="800" font-size="36" fill="#FFFFFF">ISO 27001</text>
+<text x="672" y="495" font-family="Arial, sans-serif" font-weight="400" font-size="14" fill="#E8E0E6">Information Security</text>
+
+<!-- GDPR Card - bottom left -->
+<rect x="148" y="578" width="340" height="180" rx="16" fill="#650A41"/>
+<rect x="438" y="578" width="50" height="50" rx="0" fill="#DDF07E" opacity="0.15"/>
+<rect x="448" y="588" width="30" height="4" rx="2" fill="#DDF07E"/>
+<rect x="448" y="598" width="20" height="4" rx="2" fill="#DDF07E"/>
+<rect x="448" y="608" width="25" height="4" rx="2" fill="#DDF07E"/>
+<text x="228" y="633" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="#DDF07E" letter-spacing="2">COMPLIANCE</text>
+<text x="228" y="673" font-family="Arial, sans-serif" font-weight="800" font-size="36" fill="#FFFFFF">GDPR</text>
+<text x="228" y="703" font-family="Arial, sans-serif" font-weight="400" font-size="14" fill="#E8E0E6">Data Privacy &amp; Protection</text>
+
+<!-- HIPAA Card - bottom right -->
+<rect x="592" y="578" width="340" height="180" rx="16" fill="#650A41"/>
+<rect x="592" y="578" width="50" height="50" rx="0" fill="#DDF07E" opacity="0.15"/>
+<rect x="602" y="588" width="30" height="4" rx="2" fill="#DDF07E"/>
+<rect x="602" y="598" width="20" height="4" rx="2" fill="#DDF07E"/>
+<rect x="602" y="608" width="25" height="4" rx="2" fill="#DDF07E"/>
+<text x="672" y="633" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="#DDF07E" letter-spacing="2">COMPLIANCE</text>
+<text x="672" y="673" font-family="Arial, sans-serif" font-weight="800" font-size="36" fill="#FFFFFF">HIPAA</text>
+<text x="672" y="703" font-family="Arial, sans-serif" font-weight="400" font-size="14" fill="#E8E0E6">Healthcare Data Security</text>
+
+<!-- Converging lines from cards to platform bar -->
+<!-- From SOC 2 (center bottom: 318, 758) -->
+<line x1="318" y1="758" x2="440" y2="830" stroke="#650A41" stroke-width="2.5" stroke-dasharray="6,4"/>
+<!-- From ISO 27001 (center bottom: 762, 758) -->
+<line x1="762" y1="758" x2="640" y2="830" stroke="#650A41" stroke-width="2.5" stroke-dasharray="6,4"/>
+<!-- From GDPR left edge bottom center same line -->
+<line x1="318" y1="758" x2="440" y2="830" stroke="#650A41" stroke-width="2.5" stroke-dasharray="6,4"/>
+<!-- Vertical line from midpoint -->
+<line x1="540" y1="758" x2="540" y2="830" stroke="#650A41" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+<!-- Platform convergence node dots -->
+<circle cx="318" cy="758" r="6" fill="#650A41"/>
+<circle cx="762" cy="758" r="6" fill="#650A41"/>
+<circle cx="540" cy="830" r="8" fill="#650A41"/>
+
+<!-- Platform Bar -->
+<rect x="240" y="838" width="600" height="68" rx="12" fill="#1F0214"/>
+<text x="390" y="881" font-family="Arial, sans-serif" font-weight="700" font-size="15" fill="#E8E0E6" letter-spacing="3">ONE PLATFORM</text>
+<text x="620" y="881" font-family="Arial, sans-serif" font-weight="800" font-size="26" fill="#DDF07E" text-anchor="middle">SPRINTO</text>
+<!-- Platform bar tick marks -->
+<rect x="260" y="855" width="3" height="28" rx="1" fill="#650A41"/>
+<rect x="278" y="860" width="3" height="18" rx="1" fill="#650A41"/>
+<rect x="296" y="858" width="3" height="22" rx="1" fill="#650A41"/>
+<rect x="314" y="863" width="3" height="12" rx="1" fill="#650A41"/>
+<rect x="332" y="856" width="3" height="26" rx="1" fill="#650A41"/>
+<rect x="350" y="861" width="3" height="16" rx="1" fill="#650A41"/>
+
+<!-- Body text -->
+<text x="540" y="938" font-family="Arial, sans-serif" font-weight="600" font-size="20" fill="#1F0214" text-anchor="middle">SOC 2 + ISO 27001 + GDPR + HIPAA</text>
+<text x="540" y="966" font-family="Arial, sans-serif" font-weight="400" font-size="18" fill="#650A41" text-anchor="middle">Shared controls map once, comply everywhere.</text>
+
+<!-- CTA Button -->
+<rect x="400" y="996" width="280" height="56" rx="8" fill="#650A41"/>
+<text x="540" y="1030" font-family="Arial, sans-serif" font-weight="600" font-size="18" fill="#FFFFFF" text-anchor="middle">Book a Demo</text>
+
+</svg>

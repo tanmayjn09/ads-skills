@@ -26,6 +26,7 @@ def create_responsive_search_ad(
     final_url: str,
     path1: str = "",
     path2: str = "",
+    customer_id: str = None,
 ):
     if len(headlines) < 3:
         print("ERROR: Need at least 3 headlines (max 15).")
@@ -43,7 +44,7 @@ def create_responsive_search_ad(
             print(f"WARNING: Description {i+1} is {len(d)} chars (max 90): '{d}'")
 
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
 
     ad_group_service = client.get_service("AdGroupAdService")
 
@@ -103,6 +104,7 @@ if __name__ == "__main__":
     parser.add_argument("--final-url", required=True, help="Landing page URL")
     parser.add_argument("--path1", default="", help="Display URL path 1")
     parser.add_argument("--path2", default="", help="Display URL path 2")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
 
     create_responsive_search_ad(
@@ -112,4 +114,5 @@ if __name__ == "__main__":
         final_url=args.final_url,
         path1=args.path1,
         path2=args.path2,
+        customer_id=args.customer_id,
     )

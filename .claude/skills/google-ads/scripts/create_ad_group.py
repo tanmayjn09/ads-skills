@@ -10,9 +10,9 @@ import argparse
 from client import get_client, get_customer_id
 
 
-def create_ad_group(campaign_id: int, name: str, cpc_bid: float = 2.0):
+def create_ad_group(campaign_id: int, name: str, cpc_bid: float = 2.0, customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
 
     campaign_service = client.get_service("CampaignService")
     ad_group_service = client.get_service("AdGroupService")
@@ -48,6 +48,7 @@ if __name__ == "__main__":
     parser.add_argument("--campaign-id", required=True, type=int, help="Parent campaign ID")
     parser.add_argument("--name", required=True, help="Ad group name")
     parser.add_argument("--cpc-bid", type=float, default=2.0, help="Max CPC bid in dollars (default: $2)")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
 
-    create_ad_group(args.campaign_id, args.name, args.cpc_bid)
+    create_ad_group(args.campaign_id, args.name, args.cpc_bid, args.customer_id)

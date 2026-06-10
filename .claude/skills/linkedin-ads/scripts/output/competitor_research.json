@@ -1,0 +1,4505 @@
+{
+  "vanta": [
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1432423366",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1431601756",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1431406986",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1426751136",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424684176",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424843676",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424813176",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424843696",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424883026",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424803606",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424693686",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424653446",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424853406",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1421224046",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1424823376",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1421116956",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1414531876",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1420503526",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1420343806",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1420573476",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411249926",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411218136",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411069076",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411459696",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411218126",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411249916",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411198516",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1409572416",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408721006",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408584716",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1409051076",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408862876",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408682676",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408711566",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408623796",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408603976",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408662786",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408662796",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408711556",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408702456",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408535766",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408653536",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408584596",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408516526",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408672246",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408682386",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408672256",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408720686",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408642846",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408623496",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408653246",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1408623506",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404869886",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404453636",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404276726",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404765976",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404659496",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404727426",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404375866",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404266846",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404669646",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404365496",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1252126883",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1253823033",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1252227353",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1253726763",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1253227243",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1253726773",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1254116013",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1399302716",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1253627343",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1253627123",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1252126873",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1253026563",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1253527143",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1252227103",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Slovakia",
+            "Benelux",
+            "DACH",
+            "Lithuania",
+            "Italy",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "Hungary",
+            "Latvia",
+            "Czechia",
+            "Spain",
+            "Portugal",
+            "Poland",
+            "Romania",
+            "Bulgaria",
+            "Slovenia",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1400156356",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1399137646",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1395870196",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1395709666",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1396908356",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1395761046",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1395870206",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390597176",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386861676",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386792346",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386851936",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386911156",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386911176",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386684296",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386832236",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386713456",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386772626",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386713466",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1381934616",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1381218996",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1381934636",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1381950916",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1381943356",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1381199546",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1386920626",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1238672784",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376157236",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376290116",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376243796",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1381258976",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376290696",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376166866",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376243806",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376097506",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376205376",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1376224986",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371284026",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371245796",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371798516",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371903666",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371970486",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371951566",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371178146",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371168876",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371970466",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371943046",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371188036",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371284016",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371340536",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371197646",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371265346",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1371159456",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1229021484",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1364765786",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1362466766",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1227721984",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1364717156",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "France",
+            "Nordics",
+            "Israel",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1359453106",
+      "type": "SPOTLIGHT_V2",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1359318976",
+      "type": "SPOTLIGHT_V2",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1359501226",
+      "type": "SPOTLIGHT_V2",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1350916486",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1359404846",
+      "type": "SPOTLIGHT_V2",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1046595406",
+      "type": "FOLLOW_COMPANY_V2",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "San Francisco Bay Area",
+            "Dublin",
+            "London Area, United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1004201606",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/883958206",
+      "type": "FOLLOW_COMPANY_V2",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/575346584",
+      "type": "JOBS_V2",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "North America",
+            "Asia",
+            "Europe",
+            "Africa",
+            "Oceania",
+            "Latin America",
+            "Middle East"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    }
+  ],
+  "drata": [
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1419251506",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411351866",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411392086",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411321746",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411431556",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1430645416",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411431546",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411381696",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1430774176",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411411926",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411282206",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404279596",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404279586",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397637906",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411381676",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397780226",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397770196",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404379146",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1404447296",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397770176",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397519246",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1393761056",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Nordics",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397642886",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397499456",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397651516",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397597686",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397597696",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397800036",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397568946",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1397568956",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390524146",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390985596",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1393800716",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Nordics",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390896966",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390355636",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1393741266",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Nordics",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1393810496",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Nordics",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1393711456",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Nordics",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390848296",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390414736",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1156978146",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "United States",
+            "France",
+            "Canada",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [
+            "India"
+          ],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1228594424",
+      "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [
+            "India"
+          ],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390514166",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1146405294",
+      "type": "FOLLOW_COMPANY_V2",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390551486",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390542696",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390494066",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1361708766",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "United States",
+            "France",
+            "Canada",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [
+            "India"
+          ],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1361658266",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "United States",
+            "France",
+            "Canada",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [
+            "India"
+          ],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1390394456",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/623580614",
+      "type": "JOBS_V2",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "North America",
+            "Asia",
+            "Europe",
+            "Africa",
+            "Oceania",
+            "Latin America",
+            "Middle East"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/953126506",
+      "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/908663986",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1046182406",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/925792866",
+      "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [
+            "India"
+          ],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1047682496",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/925464826",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Benelux",
+            "DACH",
+            "United States",
+            "France",
+            "Canada",
+            "Nordics",
+            "Ireland",
+            "United Kingdom"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [
+            "India"
+          ],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/908751466",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    }
+  ],
+  "secureframe": [
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1377329136",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1419259646",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1370248936",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1377309676",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411467756",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411467766",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411570256",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1377464726",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1411475236",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    }
+  ],
+  "thoropass": [
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1306299784",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1305299394",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1306299774",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1292521854",
+      "type": "SPONSORED_UPDATE_CAROUSEL",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1306799684",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1194779943",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1269520673",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1214488593",
+      "type": "SPONSORED_UPDATE_CAROUSEL",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1267027493",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1268327903",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1193197513",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/696531073",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1115925313",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1184194243",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1183795213",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1182709313",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/679226423",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/770239713",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/696486463",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/696467783",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/679245623",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/679226413",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/679236053",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    }
+  ],
+  "sprinto": [
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428764103",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428793713",
+      "type": "SPONSORED_UPDATE_CAROUSEL",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "European Economic Area",
+            "APAC",
+            "EMEA",
+            "MENA",
+            "Australia",
+            "India",
+            "Europe",
+            "Brazil",
+            "European Union"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428913383",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "APAC",
+            "Indonesia",
+            "EMEA",
+            "MENA",
+            "Australia",
+            "India",
+            "Europe",
+            "Brazil",
+            "European Union"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428954133",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428823413",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "APAC",
+            "Indonesia",
+            "EMEA",
+            "MENA",
+            "Australia",
+            "India",
+            "Europe",
+            "Brazil",
+            "European Union"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428814213",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428975403",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428874163",
+      "type": "SPONSORED_UPDATE_CAROUSEL",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428973693",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "APAC",
+            "Indonesia",
+            "EMEA",
+            "MENA",
+            "Australia",
+            "India",
+            "Europe",
+            "Brazil",
+            "European Union"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428885543",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "European Economic Area",
+            "APAC",
+            "Indonesia",
+            "EMEA",
+            "MENA",
+            "Australia",
+            "India",
+            "Europe",
+            "Brazil",
+            "European Union"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1209989913",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1209989923",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1210390163",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1193133143",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1194979943",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428405463",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1210490193",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1194979933",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1428425193",
+      "type": "$UNKNOWN",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1193128803",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/970826183",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1173989923",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1171990293",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/970836843",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Bahrain",
+            "Italy",
+            "France",
+            "Qatar",
+            "Sweden",
+            "Ireland",
+            "United Arab Emirates",
+            "Belgium",
+            "Norway",
+            "Oman",
+            "Spain",
+            "Portugal",
+            "Finland",
+            "Saudi Arabia",
+            "Germany",
+            "Switzerland",
+            "Netherlands",
+            "South Africa",
+            "Poland",
+            "Kuwait",
+            "Denmark",
+            "Austria",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1173490013",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "EMEA",
+            "MENA"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1172889853",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "EMEA",
+            "MENA"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1174488763",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1172289753",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1174090493",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "EMEA",
+            "MENA"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/1171990143",
+      "type": "SPONSORED_INMAILS",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "EMEA",
+            "MENA"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/970935063",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Bahrain",
+            "Italy",
+            "France",
+            "Qatar",
+            "Sweden",
+            "Ireland",
+            "United Arab Emirates",
+            "Belgium",
+            "Norway",
+            "Oman",
+            "Spain",
+            "Portugal",
+            "Finland",
+            "Saudi Arabia",
+            "Germany",
+            "Switzerland",
+            "Netherlands",
+            "South Africa",
+            "Poland",
+            "Kuwait",
+            "Denmark",
+            "Austria",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/768005103",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/775960573",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "Bahrain",
+            "Italy",
+            "France",
+            "Qatar",
+            "Sweden",
+            "Ireland",
+            "United Arab Emirates",
+            "Belgium",
+            "Norway",
+            "Oman",
+            "Spain",
+            "Portugal",
+            "Finland",
+            "Saudi Arabia",
+            "Germany",
+            "Switzerland",
+            "Netherlands",
+            "South Africa",
+            "Poland",
+            "Kuwait",
+            "Denmark",
+            "Austria",
+            "United Kingdom",
+            "Estonia"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Job",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/775940893",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/970875613",
+      "type": "SPONSORED_VIDEO",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/768014673",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": []
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/916002243",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "EMEA",
+            "MENA"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    },
+    {
+      "adUrl": "https://www.linkedin.com/ad-library/detail/916042053",
+      "type": "SPONSORED_STATUS_UPDATE",
+      "adTargeting": [
+        {
+          "includedSegments": [
+            "English"
+          ],
+          "facetName": "Language",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [
+            "EMEA",
+            "MENA"
+          ],
+          "facetName": "Location",
+          "excludedSegments": [],
+          "isExcluded": false,
+          "isIncluded": true
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Audience",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": false
+        },
+        {
+          "includedSegments": [],
+          "facetName": "Company",
+          "excludedSegments": [],
+          "isExcluded": true,
+          "isIncluded": true
+        }
+      ]
+    }
+  ]
+}

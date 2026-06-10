@@ -33,7 +33,9 @@ def get_client() -> GoogleAdsClient:
     return GoogleAdsClient.load_from_dict(credentials)
 
 
-def get_customer_id() -> str:
-    """Return the customer ID from config (no dashes)."""
+def get_customer_id(override: str = None) -> str:
+    """Return the customer ID from config (no dashes). Override takes precedence."""
+    if override:
+        return override.replace("-", "")
     config = get_config()
     return config["customer_id"].replace("-", "")

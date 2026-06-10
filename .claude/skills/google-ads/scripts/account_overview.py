@@ -90,9 +90,9 @@ def fetch_campaign_breakdown(ga_service, customer_id, start_date, end_date):
     return campaigns
 
 
-def account_overview(date_range: str = "last_30d", compare: bool = False):
+def account_overview(date_range: str = "last_30d", compare: bool = False, customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
     ga_service = client.get_service("GoogleAdsService")
 
     days = DATE_RANGES.get(date_range, 30)
@@ -178,6 +178,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Google Ads account overview")
     parser.add_argument("--date-range", default="last_30d", choices=list(DATE_RANGES.keys()))
     parser.add_argument("--compare", action="store_true", help="Compare to previous period")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
 
-    account_overview(args.date_range, args.compare)
+    account_overview(args.date_range, args.compare, args.customer_id)

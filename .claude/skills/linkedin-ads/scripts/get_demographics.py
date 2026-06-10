@@ -54,23 +54,24 @@ def date_label(d: dict) -> str:
 
 def fetch_demographics(session, account_id, pivot, start, end, campaign_id=None):
     """Fetch demographics for a single pivot."""
-    params = {
-        "q": "analytics",
-        "pivot": pivot,
-        "dateRange.start.year": start["year"],
-        "dateRange.start.month": start["month"],
-        "dateRange.start.day": start["day"],
-        "dateRange.end.year": end["year"],
-        "dateRange.end.month": end["month"],
-        "dateRange.end.day": end["day"],
-        "timeGranularity": "ALL",
-        "accounts[0]": f"urn:li:sponsoredAccount:{account_id}",
-    }
+    from urllib.parse import quote
 
+    date_range = (
+        f"(start:(year:{start['year']},month:{start['month']},day:{start['day']}),"
+        f"end:(year:{end['year']},month:{end['month']},day:{end['day']}))"
+    )
+    encoded_account = quote(f"urn:li:sponsoredAccount:{account_id}", safe="")
+    query = (
+        f"q=analytics&pivot={pivot}&timeGranularity=ALL"
+        f"&dateRange={date_range}"
+        f"&accounts=List({encoded_account})"
+        f"&fields=impressions,clicks,costInLocalCurrency,externalWebsiteConversions,oneClickLeads,pivotValues"
+    )
     if campaign_id:
-        params["campaigns[0]"] = f"urn:li:sponsoredCampaign:{campaign_id}"
+        encoded_campaign = quote(f"urn:li:sponsoredCampaign:{campaign_id}", safe="")
+        query += f"&campaigns=List({encoded_campaign})"
 
-    resp = session.get(f"{BASE_URL}/adAnalytics", params=params)
+    resp = session.get(f"{BASE_URL}/adAnalytics?{query}")
     if resp.status_code != 200:
         print(f"  WARNING: Failed to fetch {pivot}: {resp.status_code}")
         return []
@@ -80,7 +81,8 @@ def fetch_demographics(session, account_id, pivot, start, end, campaign_id=None)
 
     segments = []
     for el in elements:
-        pivot_value = el.get("pivotValue", "")
+        pivot_values = el.get("pivotValues", [el.get("pivotValue", "")])
+        pivot_value = pivot_values[0] if pivot_values else ""
         # Clean up URN for display
         display_value = pivot_value.split(":")[-1] if ":" in pivot_value else pivot_value
 

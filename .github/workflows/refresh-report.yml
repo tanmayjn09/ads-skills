@@ -1,0 +1,50 @@
+name: Refresh Ads Report
+
+on:
+  schedule:
+    - cron: '30 2 * * *'   # 8:00 AM IST = 2:30 AM UTC
+  workflow_dispatch:         # allow manual trigger from GitHub UI
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      # Google Ads
+      GOOGLE_ADS_DEVELOPER_TOKEN: ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
+      GOOGLE_ADS_CLIENT_ID:       ${{ secrets.GOOGLE_ADS_CLIENT_ID }}
+      GOOGLE_ADS_CLIENT_SECRET:   ${{ secrets.GOOGLE_ADS_CLIENT_SECRET }}
+      GOOGLE_ADS_REFRESH_TOKEN:   ${{ secrets.GOOGLE_ADS_REFRESH_TOKEN }}
+      GOOGLE_ADS_CUSTOMER_ID:     ${{ secrets.GOOGLE_ADS_CUSTOMER_ID }}
+      GOOGLE_ADS_LOGIN_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_LOGIN_CUSTOMER_ID }}
+      # LinkedIn
+      LINKEDIN_CLIENT_ID:     ${{ secrets.LINKEDIN_CLIENT_ID }}
+      LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+      LINKEDIN_ACCESS_TOKEN:  ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+      LINKEDIN_ACCOUNT_ID:    ${{ secrets.LINKEDIN_ACCOUNT_ID }}
+      # Reddit
+      REDDIT_CLIENT_ID:      ${{ secrets.REDDIT_CLIENT_ID }}
+      REDDIT_CLIENT_SECRET:  ${{ secrets.REDDIT_CLIENT_SECRET }}
+      REDDIT_REFRESH_TOKEN:  ${{ secrets.REDDIT_REFRESH_TOKEN }}
+      REDDIT_AD_ACCOUNT_ID:  ${{ secrets.REDDIT_AD_ACCOUNT_ID }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate report
+        run: python generate_pmax_images.py
+
+      - name: Deploy to Vercel
+        run: |
+          npm install -g vercel
+          cp PMax_Image_Performance.html vercel-deploy/index.html
+          vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --cwd vercel-deploy --yes

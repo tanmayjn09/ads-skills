@@ -20,11 +20,11 @@ def list_campaigns(status_filter: str = None):
     account_id = get_account_id()
 
     # Fetch campaigns
-    params = {"q": "search", "count": 100}
+    query = "q=search&count=100"
     if status_filter:
-        params["search"] = f"(status:(values:List({status_filter.upper()})))"
+        query += f"&search=(status:(values:List({status_filter.upper()})))"
 
-    resp = session.get(f"{BASE_URL}/adAccounts/{account_id}/adCampaigns", params=params)
+    resp = session.get(f"{BASE_URL}/adAccounts/{account_id}/adCampaigns?{query}")
     if resp.status_code != 200:
         print(f"ERROR: Failed to fetch campaigns: {resp.status_code}")
         print(resp.text)
@@ -44,25 +44,29 @@ def list_campaigns(status_filter: str = None):
 
     analytics_map = {}
     if campaign_ids:
-        analytics_params = {
-            "q": "analytics",
-            "pivot": "CAMPAIGN",
-            "dateRange.start.year": start.year,
-            "dateRange.start.month": start.month,
-            "dateRange.start.day": start.day,
-            "dateRange.end.year": end.year,
-            "dateRange.end.month": end.month,
-            "dateRange.end.day": end.day,
-            "timeGranularity": "ALL",
-            "accounts[0]": f"urn:li:sponsoredAccount:{account_id}",
-        }
-        for i, cid in enumerate(campaign_ids):
-            analytics_params[f"campaigns[{i}]"] = f"urn:li:sponsoredCampaign:{cid}"
+        from urllib.parse import quote
 
-        a_resp = session.get(f"{BASE_URL}/adAnalytics", params=analytics_params)
+        date_range = (
+            f"(start:(year:{start.year},month:{start.month},day:{start.day}),"
+            f"end:(year:{end.year},month:{end.month},day:{end.day}))"
+        )
+        encoded_account = quote(f"urn:li:sponsoredAccount:{account_id}", safe="")
+        encoded_campaigns = ",".join(
+            quote(f"urn:li:sponsoredCampaign:{cid}", safe="") for cid in campaign_ids[:50]
+        )
+        query = (
+            f"q=analytics&pivot=CAMPAIGN&timeGranularity=ALL"
+            f"&dateRange={date_range}"
+            f"&accounts=List({encoded_account})"
+            f"&campaigns=List({encoded_campaigns})"
+            f"&fields=impressions,clicks,costInLocalCurrency,externalWebsiteConversions,oneClickLeads,pivotValues"
+        )
+
+        a_resp = session.get(f"{BASE_URL}/adAnalytics?{query}")
         if a_resp.status_code == 200:
             for el in a_resp.json().get("elements", []):
-                pivot = el.get("pivotValue", "")
+                pivot_values = el.get("pivotValues", [el.get("pivotValue", "")])
+                pivot = pivot_values[0] if pivot_values else ""
                 cid = pivot.split(":")[-1] if pivot else ""
                 analytics_map[cid] = el
 

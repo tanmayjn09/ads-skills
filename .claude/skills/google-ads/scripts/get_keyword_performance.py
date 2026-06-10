@@ -19,9 +19,9 @@ DATE_RANGES = {"last_7d": 7, "last_14d": 14, "last_30d": 30, "last_90d": 90}
 
 
 def get_keyword_performance(campaign_id: int = None, ad_group_id: int = None,
-                            date_range: str = "last_30d", top: int = 50):
+                            date_range: str = "last_30d", top: int = 50, customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
     ga_service = client.get_service("GoogleAdsService")
 
     days = DATE_RANGES.get(date_range, 30)
@@ -114,6 +114,8 @@ if __name__ == "__main__":
     parser.add_argument("--ad-group-id", type=int, help="Filter by ad group")
     parser.add_argument("--date-range", default="last_30d", choices=list(DATE_RANGES.keys()))
     parser.add_argument("--top", type=int, default=50, help="Top N keywords by spend")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
 
-    get_keyword_performance(args.campaign_id, args.ad_group_id, args.date_range, args.top)
+    get_keyword_performance(args.campaign_id, args.ad_group_id, args.date_range, args.top,
+                            args.customer_id)

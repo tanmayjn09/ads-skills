@@ -20,9 +20,9 @@ from client import get_client, get_customer_id
 
 
 def add_keywords(ad_group_id: int, keywords: list[str], match_type: str = "BROAD",
-                 negative: bool = False, cpc_bid: float = None):
+                 negative: bool = False, cpc_bid: float = None, customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
 
     if negative:
         _add_negative_keywords(client, customer_id, ad_group_id, keywords, match_type)
@@ -100,6 +100,8 @@ if __name__ == "__main__":
                         help="Keyword match type (default: BROAD)")
     parser.add_argument("--negative", action="store_true", help="Add as negative keywords")
     parser.add_argument("--cpc-bid", type=float, help="Keyword-level CPC bid override (dollars)")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
 
-    add_keywords(args.ad_group_id, args.keywords, args.match_type, args.negative, args.cpc_bid)
+    add_keywords(args.ad_group_id, args.keywords, args.match_type, args.negative, args.cpc_bid,
+                 args.customer_id)

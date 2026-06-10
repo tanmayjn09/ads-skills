@@ -1,0 +1,7 @@
+requests
+Pillow
+numpy
+python-dotenv
+google-ads==31.0.0
+google-auth
+google-auth-oauthlib

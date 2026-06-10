@@ -12,9 +12,9 @@ from client import get_client, get_customer_id
 from tabulate import tabulate
 
 
-def list_campaigns(status_filter: str = None):
+def list_campaigns(status_filter: str = None, customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
     ga_service = client.get_service("GoogleAdsService")
 
     query = """
@@ -89,5 +89,6 @@ def list_campaigns(status_filter: str = None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="List Google Ads campaigns")
     parser.add_argument("--status", choices=["ENABLED", "PAUSED"], help="Filter by status")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
-    list_campaigns(args.status)
+    list_campaigns(args.status, args.customer_id)

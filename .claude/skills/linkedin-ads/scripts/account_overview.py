@@ -34,19 +34,19 @@ def date_label(d: dict) -> str:
 
 def fetch_account_metrics(session, account_id, start, end):
     """Fetch account-level analytics for a date range."""
-    params = {
-        "q": "analytics",
-        "pivot": "ACCOUNT",
-        "dateRange.start.year": start["year"],
-        "dateRange.start.month": start["month"],
-        "dateRange.start.day": start["day"],
-        "dateRange.end.year": end["year"],
-        "dateRange.end.month": end["month"],
-        "dateRange.end.day": end["day"],
-        "timeGranularity": "ALL",
-        "accounts[0]": f"urn:li:sponsoredAccount:{account_id}",
-    }
-    resp = session.get(f"{BASE_URL}/adAnalytics", params=params)
+    from urllib.parse import quote
+    date_range = (
+        f"(start:(year:{start['year']},month:{start['month']},day:{start['day']}),"
+        f"end:(year:{end['year']},month:{end['month']},day:{end['day']}))"
+    )
+    encoded_account = quote(f"urn:li:sponsoredAccount:{account_id}", safe="")
+    query = (
+        f"q=analytics&pivot=ACCOUNT&timeGranularity=ALL"
+        f"&dateRange={date_range}"
+        f"&accounts=List({encoded_account})"
+        f"&fields=impressions,clicks,costInLocalCurrency,externalWebsiteConversions,oneClickLeads,pivotValues"
+    )
+    resp = session.get(f"{BASE_URL}/adAnalytics?{query}")
     if resp.status_code != 200:
         print(f"ERROR: Failed to fetch account analytics: {resp.status_code}")
         print(resp.text)
@@ -76,19 +76,19 @@ def fetch_account_metrics(session, account_id, start, end):
 
 def fetch_top_campaigns(session, account_id, start, end):
     """Fetch campaign-level analytics, sorted by spend."""
-    params = {
-        "q": "analytics",
-        "pivot": "CAMPAIGN",
-        "dateRange.start.year": start["year"],
-        "dateRange.start.month": start["month"],
-        "dateRange.start.day": start["day"],
-        "dateRange.end.year": end["year"],
-        "dateRange.end.month": end["month"],
-        "dateRange.end.day": end["day"],
-        "timeGranularity": "ALL",
-        "accounts[0]": f"urn:li:sponsoredAccount:{account_id}",
-    }
-    resp = session.get(f"{BASE_URL}/adAnalytics", params=params)
+    from urllib.parse import quote
+    date_range = (
+        f"(start:(year:{start['year']},month:{start['month']},day:{start['day']}),"
+        f"end:(year:{end['year']},month:{end['month']},day:{end['day']}))"
+    )
+    encoded_account = quote(f"urn:li:sponsoredAccount:{account_id}", safe="")
+    query = (
+        f"q=analytics&pivot=CAMPAIGN&timeGranularity=ALL"
+        f"&dateRange={date_range}"
+        f"&accounts=List({encoded_account})"
+        f"&fields=impressions,clicks,costInLocalCurrency,externalWebsiteConversions,oneClickLeads,pivotValues"
+    )
+    resp = session.get(f"{BASE_URL}/adAnalytics?{query}")
     if resp.status_code != 200:
         print(f"ERROR: Failed to fetch campaign analytics: {resp.status_code}")
         print(resp.text)
@@ -106,8 +106,9 @@ def fetch_top_campaigns(session, account_id, start, end):
         ctr = (clicks / impressions * 100) if impressions > 0 else 0
         cpl = (spend / conversions) if conversions > 0 else 0
 
-        # Extract campaign ID from pivotValue URN
-        pivot = el.get("pivotValue", "")
+        # Extract campaign ID from pivotValues URN
+        pivot_values = el.get("pivotValues", [el.get("pivotValue", "")])
+        pivot = pivot_values[0] if pivot_values else ""
         campaign_id = pivot.split(":")[-1] if pivot else "?"
 
         campaigns.append({

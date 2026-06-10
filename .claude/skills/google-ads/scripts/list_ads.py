@@ -12,9 +12,9 @@ from client import get_client, get_customer_id
 from tabulate import tabulate
 
 
-def list_ads(campaign_id: int = None, ad_group_id: int = None):
+def list_ads(campaign_id: int = None, ad_group_id: int = None, customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
     ga_service = client.get_service("GoogleAdsService")
 
     conditions = ["ad_group_ad.status != 'REMOVED'"]
@@ -89,5 +89,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="List Google Ads")
     parser.add_argument("--campaign-id", type=int, help="Filter by campaign ID")
     parser.add_argument("--ad-group-id", type=int, help="Filter by ad group ID")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
-    list_ads(args.campaign_id, args.ad_group_id)
+    list_ads(args.campaign_id, args.ad_group_id, args.customer_id)

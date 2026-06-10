@@ -21,9 +21,10 @@ DATE_RANGES = {"last_7d": 7, "last_14d": 14, "last_30d": 30, "last_90d": 90}
 
 
 def search_terms_report(campaign_id: int = None, date_range: str = "last_30d",
-                        min_clicks: int = 1, no_conversions: bool = False, top: int = 50):
+                        min_clicks: int = 1, no_conversions: bool = False, top: int = 50,
+                        customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
     ga_service = client.get_service("GoogleAdsService")
 
     days = DATE_RANGES.get(date_range, 30)
@@ -119,6 +120,8 @@ if __name__ == "__main__":
     parser.add_argument("--no-conversions", action="store_true",
                         help="Only show terms with clicks but no conversions (wasted spend)")
     parser.add_argument("--top", type=int, default=50, help="Top N terms by spend")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
 
-    search_terms_report(args.campaign_id, args.date_range, args.min_clicks, args.no_conversions, args.top)
+    search_terms_report(args.campaign_id, args.date_range, args.min_clicks, args.no_conversions,
+                        args.top, args.customer_id)

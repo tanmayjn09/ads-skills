@@ -14,9 +14,10 @@ from google.api_core import protobuf_helpers
 from client import get_client, get_customer_id
 
 
-def update_campaign(campaign_id: int, status: str = None, budget: float = None, name: str = None):
+def update_campaign(campaign_id: int, status: str = None, budget: float = None, name: str = None,
+                    customer_id: str = None):
     client = get_client()
-    customer_id = get_customer_id()
+    customer_id = get_customer_id(customer_id)
 
     changes_made = []
 
@@ -92,6 +93,7 @@ if __name__ == "__main__":
     parser.add_argument("--status", choices=["ENABLED", "PAUSED"], help="New status")
     parser.add_argument("--budget", type=float, help="New daily budget in dollars")
     parser.add_argument("--name", help="New campaign name")
+    parser.add_argument("--customer-id", help="Override customer ID (e.g., 196-089-4839)")
     args = parser.parse_args()
 
-    update_campaign(args.campaign_id, args.status, args.budget, args.name)
+    update_campaign(args.campaign_id, args.status, args.budget, args.name, args.customer_id)
