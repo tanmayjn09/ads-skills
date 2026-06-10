@@ -1025,7 +1025,8 @@ for camp in li_camp_order:
               f'{camp[:38]}<span>{tc:.0f} conv · ${ts:,.0f}</span></a>\n')
 
 logo_b64    = open('.claude/skills/linkedin-ads/scripts/sprinto_logo_b64.txt').read().strip()
-favicon_b64 = 'data:image/webp;base64,' + base64.b64encode(open('/Users/tanmayjn/Downloads/Icon Light.webp', 'rb').read()).decode()
+_favicon_path = Path(__file__).parent / 'favicon.webp'
+favicon_b64 = 'data:image/webp;base64,' + base64.b64encode(_favicon_path.read_bytes()).decode() if _favicon_path.exists() else ''
 
 def img_cell(aid, name, zoom=True):
     b64   = img_b64.get(aid)
