@@ -1074,6 +1074,19 @@ for camp in camp_order:
     sb += (f'<a href="#{anc}" class="sb-link" data-section="{anc}">'
            f'{camp}<span>{tc:.2f} conv · ${ts:,.0f}</span></a>\n')
 
+# Use existing favicon if already deployed; only embed for new apps
+_existing_html = Path('vercel-deploy/index.html')
+_existing_favicon = ''
+if _existing_html.exists():
+    import re as _re2
+    _m = _re2.search(r'<link rel="icon"[^>]+href="([^"]+)"', _existing_html.read_text())
+    if _m:
+        _existing_favicon = _m.group(1)
+if _existing_favicon:
+    favicon_b64 = _existing_favicon
+else:
+    _favicon_path = Path(__file__).parent / 'favicon.webp'
+    favicon_b64 = ('data:image/webp;base64,' + base64.b64encode(_favicon_path.read_bytes()).decode()) if _favicon_path.exists() else ''
 from datetime import datetime, timezone, timedelta as _td
 _IST = timezone(_td(hours=5, minutes=30))
 today = datetime.now(_IST).strftime('%b %d, %Y %I:%M %p IST')
@@ -1085,7 +1098,7 @@ html = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Google Ads Assets Performance — Sprinto</title>
-<link rel="icon" type="image/webp" href="/favicon.webp">
+<link rel="icon" type="image/webp" href="{favicon_b64}">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Lora:wght@600&display=swap" rel="stylesheet">
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
