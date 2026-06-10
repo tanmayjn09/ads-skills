@@ -1076,7 +1076,9 @@ for camp in camp_order:
     sb += (f'<a href="#{anc}" class="sb-link" data-section="{anc}">'
            f'{camp}<span>{tc:.2f} conv · ${ts:,.0f}</span></a>\n')
 
-today = date.today().strftime('%b %d, %Y')
+from datetime import datetime, timezone, timedelta as _td
+_IST = timezone(_td(hours=5, minutes=30))
+today = datetime.now(_IST).strftime('%b %d, %Y %I:%M %p IST')
 
 # ── HTML ───────────────────────────────────────────────────────────────────────
 html = f'''<!DOCTYPE html>
