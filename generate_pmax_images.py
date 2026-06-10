@@ -1025,8 +1025,6 @@ for camp in li_camp_order:
               f'{camp[:38]}<span>{tc:.0f} conv · ${ts:,.0f}</span></a>\n')
 
 logo_b64    = open('.claude/skills/linkedin-ads/scripts/sprinto_logo_b64.txt').read().strip()
-_favicon_path = Path(__file__).parent / 'favicon.webp'
-favicon_b64 = 'data:image/webp;base64,' + base64.b64encode(_favicon_path.read_bytes()).decode() if _favicon_path.exists() else ''
 
 def img_cell(aid, name, zoom=True):
     b64   = img_b64.get(aid)
@@ -1087,7 +1085,7 @@ html = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Google Ads Assets Performance — Sprinto</title>
-<link rel="icon" type="image/webp" href="{favicon_b64}">
+<link rel="icon" type="image/webp" href="/favicon.webp">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Lora:wght@600&display=swap" rel="stylesheet">
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
