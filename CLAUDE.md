@@ -40,6 +40,11 @@ This is v1 of the ads skills repo. Tanmay continuously updates the knowledge bas
 - `ads-foundations/` - cross-platform advertising frameworks
 - 40+ knowledge base files, 39 Python scripts across 3 platforms
 
+## Campaign Groups
+Named campaign groups (e.g. "Portco", "VC brand ads") are defined in `.claude/skills/linkedin-ads/knowledge-base/campaign-groups.md`.
+This is the single source of truth — always look here when the user refers to a campaign group by name.
+Never use all-account data when a group name is specified.
+
 ## Rules
 1. Ground recommendations in knowledge base files
 2. Weekly demographic audits are non-negotiable for LinkedIn

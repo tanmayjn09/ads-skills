@@ -41,6 +41,8 @@ COMPETITORS = {
     "drata":       {"search": "Drata",       "exact": "Drata"},
     "secureframe": {"search": "Secureframe", "exact": "Secureframe"},
     "thoropass":   {"search": "Thoropass",   "exact": "Thoropass"},
+    "scrut":       {"search": "Scrut Automation", "exact": "Scrut Automation"},
+    "oneleet":     {"search": "Oneleet",     "exact": "Oneleet"},
     "sprinto":     {"search": "Sprinto",     "exact": "Sprinto"},
 }
 
@@ -49,6 +51,8 @@ COMPANY_COLORS = {
     "drata":       "#1E40AF",
     "secureframe": "#059669",
     "thoropass":   "#16A34A",
+    "scrut":       "#EA580C",
+    "oneleet":     "#0891B2",
     "sprinto":     "#9B1B60",
 }
 
@@ -372,35 +376,56 @@ def img_to_b64(path):
         return None
 
 def dedup_ads(ads):
-    """Deduplicate ads with identical creatives (same image + headline).
-    Keeps the most recent (highest ID). Records duplicate count on card."""
+    """Group ads by creative (image URL only). All copy variants are stored on the primary card."""
     seen = {}
     for ad in ads:
-        # Key: image_url (primary) or headline+body (fallback for ads without images)
-        img  = ad.get("image_url", "").split("?")[0]  # strip query params
-        head = ad.get("headline", "")
-        body = (ad.get("body", "") or "")[:80]
-        key  = img if img else f"{head}|{body}"
-        if not key:
-            key = ad.get("url", "")  # absolute fallback
+        img = ad.get("image_url", "").split("?")[0]
+        key = img if img else ad.get("url", "")
 
         if key not in seen:
-            seen[key] = ad.copy()
-            seen[key]["_variants"] = 1
+            primary = ad.copy()
+            primary["_copy_variants"] = []
+            seen[key] = primary
         else:
-            seen[key]["_variants"] += 1
-            # Keep the higher-ID (more recent) entry
+            # Only add as a variant if copy actually differs from primary
+            p = seen[key]
+            same_headline = (ad.get("headline","") or "").strip() == (p.get("headline","") or "").strip()
+            same_body     = (ad.get("body","") or "").strip() == (p.get("body","") or "").strip()
+            if not (same_headline and same_body):
+                seen[key]["_copy_variants"].append({
+                    "headline": ad.get("headline", ""),
+                    "body":     ad.get("body", ""),
+                    "cta":      ad.get("cta", ""),
+                    "url":      ad.get("url", ""),
+                })
+            # Keep the highest-ID as primary
             existing_id = int(seen[key].get("url","0").split("/")[-1] or 0)
             this_id     = int(ad.get("url","0").split("/")[-1] or 0)
             if this_id > existing_id:
-                variants = seen[key]["_variants"]
+                variants = seen[key]["_copy_variants"]
                 seen[key] = ad.copy()
-                seen[key]["_variants"] = variants
+                seen[key]["_copy_variants"] = variants
 
     return list(seen.values())
 
 
 def generate_gallery(all_company_data, new_ids, today_str):
+
+    # Favicon: reuse existing deployed favicon, else embed fresh from favicon.webp
+    _deploy_html = Path(__file__).parent / "output" / "deploy" / "index.html"
+    favicon_b64 = ""
+    if _deploy_html.exists():
+        import re as _re2
+        _m = _re2.search(r'<link rel="icon"[^>]+href="([^"]+)"', _deploy_html.read_text())
+        if _m:
+            favicon_b64 = _m.group(1)
+    if not favicon_b64:
+        _fav = Path(__file__).parent.parent.parent.parent.parent / "favicon.webp"
+        if not _fav.exists():
+            _fav = Path(__file__).parent / "favicon.webp"
+        if _fav.exists():
+            favicon_b64 = "data:image/webp;base64," + base64.b64encode(_fav.read_bytes()).decode()
+    favicon_tag = f'<link rel="icon" type="image/webp" href="{favicon_b64}">' if favicon_b64 else ""
 
     # Load Sprinto icon SVG for inline embedding
     logo_svg = ""
@@ -463,10 +488,9 @@ def generate_gallery(all_company_data, new_ids, today_str):
             locations = ad.get("locations", [])
             all_types.add(ad_type)
 
-            if img_path and Path(img_path).exists():
-                b64 = img_to_b64(img_path)
-                img_html = (f'<img class="card-img" src="data:image/jpeg;base64,{b64}" loading="lazy">'
-                            if b64 else '<div class="card-img-empty"><span>NO PREVIEW</span></div>')
+            b64 = (img_to_b64(img_path) if img_path and Path(img_path).exists() else None) or ad.get("image_b64")
+            if b64:
+                img_html = f'<img class="card-img" src="data:image/jpeg;base64,{b64}" loading="lazy">'
             elif ad_type and "Video" in ad_type:
                 img_html = '<div class="card-img-empty video"><span>&#9654; VIDEO</span></div>'
             else:
@@ -716,14 +740,15 @@ body { font-family: 'Instrument Sans', -apple-system, sans-serif;
 .tp-table thead .tp-name, .tp-table thead .tp-val { font-weight: 700; font-size: 9.5px;
   text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding-bottom: 5px; }
 
-/* Link button */
-.card-link { display: block; text-align: center; padding: 9px 16px;
-             margin: 10px 16px 14px; background: var(--bg3);
-             border: 1px solid var(--border2); border-radius: 8px;
+/* Link buttons */
+.card-actions { display: flex; gap: 6px; padding: 0 16px 14px; margin-top: 10px; }
+.card-link { flex: 1; display: block; text-align: center; padding: 9px 10px;
+             background: var(--bg3); border: 1px solid var(--border2); border-radius: 8px;
              color: var(--muted); font-size: 11px; font-weight: 500;
              text-decoration: none; transition: all .12s; }
-.card-link:hover { background: var(--brand); border-color: var(--brand);
-                   color: #fff; }
+.card-link:hover { background: var(--brand); border-color: var(--brand); color: #fff; }
+.card-link-variants { background: #650A4108; border-color: #650A4128; color: var(--brand); flex: 0 0 auto; }
+.card-link-variants:hover { background: var(--brand); border-color: var(--brand); color: #fff; }
 
 /* ── Section heading ── */
 .section-head { display: flex; align-items: center; gap: 12px;
@@ -743,16 +768,72 @@ body { font-family: 'Instrument Sans', -apple-system, sans-serif;
 /* Empty state */
 .empty { text-align: center; padding: 80px 20px; color: var(--muted);
          font-size: 14px; display: none; }
+
+/* Variants modal */
+.modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.5);
+                 z-index: 1000; align-items: center; justify-content: center; padding: 24px; }
+.modal-overlay.open { display: flex; }
+.modal { background: var(--bg2); border-radius: 14px; width: 100%; max-width: 860px;
+         max-height: 85vh; display: flex; flex-direction: column; overflow: hidden;
+         box-shadow: 0 24px 60px rgba(0,0,0,.25); }
+.modal-head { display: flex; align-items: center; justify-content: space-between;
+              padding: 18px 22px 14px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+.modal-title { font-size: 15px; font-weight: 700; color: var(--text); }
+.modal-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.modal-close { background: var(--bg3); border: 1px solid var(--border2); border-radius: 8px;
+               width: 32px; height: 32px; cursor: pointer; font-size: 16px; color: var(--muted);
+               display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.modal-close:hover { background: var(--brand); color: #fff; border-color: var(--brand); }
+.modal-body { overflow-y: auto; padding: 18px 22px; display: flex; flex-direction: column; gap: 12px; }
+.mv-card { border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px;
+           background: var(--bg); }
+.mv-card:first-child { border-color: var(--brand); background: #650A4106; }
+.mv-num { font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+          color: var(--muted); margin-bottom: 8px; }
+.mv-card:first-child .mv-num { color: var(--brand); }
+.mv-headline { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 5px; }
+.mv-body { font-size: 12px; color: var(--muted); line-height: 1.55; margin-bottom: 6px; }
+.mv-footer { display: flex; align-items: center; justify-content: space-between; }
+.mv-cta { font-size: 11px; color: var(--brand); font-weight: 600; }
+.mv-link { font-size: 11px; color: var(--muted); text-decoration: none; }
+.mv-link:hover { color: var(--brand); }
+
+/* Search bar */
+.search-wrap { position: relative; margin-left: auto; }
+.search-input { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
+                border-radius: 8px; color: #fff; font-size: 12px; padding: 7px 12px 7px 32px;
+                width: 220px; outline: none; font-family: inherit; }
+.search-input::placeholder { color: rgba(255,255,255,.4); }
+.search-input:focus { background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.4); }
+.search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+               color: rgba(255,255,255,.4); font-size: 13px; pointer-events: none; }
+.search-clear { position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+                color: rgba(255,255,255,.4); cursor: pointer; font-size: 14px;
+                display: none; line-height: 1; background: none; border: none; }
+
+/* Sort */
+.sort-wrap { display: flex; align-items: center; gap: 6px; }
+.sort-lbl { font-size: 10px; color: rgba(255,255,255,.4); text-transform: uppercase; letter-spacing: .06em; }
+.sort-btn { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15);
+            border-radius: 6px; color: rgba(255,255,255,.6); font-size: 11px; font-weight: 500;
+            padding: 5px 10px; cursor: pointer; font-family: inherit; transition: all .12s; }
+.sort-btn:hover, .sort-btn.active { background: rgba(255,255,255,.2); color: #fff;
+                                    border-color: rgba(255,255,255,.3); }
 """
 
     js = """
 let activeCompany = 'all', activeType = 'all', activeTL = 'all', activeEMEA = 'all';
+let activeSearch = '', activeSort = 'latest';
 
 function applyFilters() {
+  const q = activeSearch.toLowerCase().trim();
   let visible = 0;
   document.querySelectorAll('.card-wrap').forEach(c => {
     const co = c.dataset.company, tp = c.dataset.type, tl = c.dataset.tl, em = c.dataset.emea;
-    const show = (activeCompany === 'all' || co === activeCompany) &&
+    const searchText = (c.dataset.search || '') + ' ' + co;
+    const matchSearch = !q || searchText.includes(q);
+    const show = matchSearch &&
+                 (activeCompany === 'all' || co === activeCompany) &&
                  (activeType   === 'all' || tp === activeType)    &&
                  (activeTL     === 'all' || tl === activeTL)      &&
                  (activeEMEA   === 'all' || em === activeEMEA);
@@ -760,12 +841,25 @@ function applyFilters() {
     if (show) visible++;
   });
   document.querySelectorAll('.company-section').forEach(s => {
-    const co = s.dataset.company;
-    const hasVisible = [...s.querySelectorAll('.card-wrap')]
-      .some(c => c.style.display !== 'none');
+    const hasVisible = [...s.querySelectorAll('.card-wrap')].some(c => c.style.display !== 'none');
     s.style.display = hasVisible ? '' : 'none';
   });
   document.querySelector('.empty').style.display = visible ? 'none' : 'block';
+  applySort();
+}
+
+function applySort() {
+  document.querySelectorAll('.company-section').forEach(section => {
+    const grid = section.querySelector('.grid');
+    if (!grid) return;
+    const cards = [...grid.querySelectorAll('.card-wrap')];
+    cards.sort((a, b) => {
+      const idA = parseInt(a.dataset.id) || 0;
+      const idB = parseInt(b.dataset.id) || 0;
+      return activeSort === 'latest' ? idB - idA : idA - idB;
+    });
+    cards.forEach(c => grid.appendChild(c));
+  });
 }
 
 function filterCompany(val, btn) {
@@ -798,6 +892,49 @@ function filterEMEA(val, btn) {
   btn.classList.add('pill-active');
   applyFilters();
 }
+function setSort(val, btn) {
+  activeSort = val;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
+}
+function onSearch(val) {
+  activeSearch = val;
+  document.querySelector('.search-clear').style.display = val ? 'block' : 'none';
+  applyFilters();
+}
+function clearSearch() {
+  document.querySelector('.search-input').value = '';
+  onSearch('');
+}
+document.addEventListener('DOMContentLoaded', () => applySort());
+
+function openVariants(btn) {
+  const variants = JSON.parse(btn.dataset.variants);
+  document.getElementById('modalTitle').textContent = 'Copy Variants';
+  document.getElementById('modalSub').textContent = variants.length + ' versions of this ad';
+  const body = document.getElementById('modalBody');
+  body.innerHTML = variants.map((v, i) => `
+    <div class="mv-card">
+      <div class="mv-num">${i === 0 ? 'Primary' : 'Variant ' + (i + 1)}</div>
+      ${v.headline ? `<div class="mv-headline">${v.headline}</div>` : ''}
+      ${v.body ? `<div class="mv-body">${v.body}</div>` : ''}
+      <div class="mv-footer">
+        ${v.cta ? `<span class="mv-cta">${v.cta} &rarr;</span>` : '<span></span>'}
+        ${v.url ? `<a class="mv-link" href="${v.url}" target="_blank">View on Ad Library &rarr;</a>` : ''}
+      </div>
+    </div>`).join('');
+  document.getElementById('variantsModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeVariants() {
+  document.getElementById('variantsModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function closeVariantsIfBg(e) {
+  if (e.target === document.getElementById('variantsModal')) closeVariants();
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeVariants(); });
 """
 
     # Build per-company sections
@@ -830,7 +967,8 @@ function filterEMEA(val, btn) {
             headline= (ad.get("headline") or "").strip()
             copy    = (ad.get("body") or "").strip()
             cta     = (ad.get("cta") or "").strip()
-            variants           = ad.get("_variants", 1)
+            copy_variants      = ad.get("_copy_variants", [])
+            variants           = 1 + len(copy_variants)
             img_path           = ad.get("local_image", "")
             url                = ad.get("url","")
             locations          = ad.get("locations", [])
@@ -849,10 +987,9 @@ function filterEMEA(val, btn) {
             url_signals = " ".join([ad.get("utm_campaign",""), ad.get("utm_medium",""), ad.get("landing_url","")])
             cta_stage = classify_cta("", url_signals)
 
-            if img_path and Path(img_path).exists():
-                b64 = img_to_b64(img_path)
-                img_html = (f'<img class="card-img" src="data:image/jpeg;base64,{b64}" loading="lazy">'
-                            if b64 else '<div class="card-img-empty"><span>NO PREVIEW</span></div>')
+            b64 = (img_to_b64(img_path) if img_path and Path(img_path).exists() else None) or ad.get("image_b64")
+            if b64:
+                img_html = f'<img class="card-img" src="data:image/jpeg;base64,{b64}" loading="lazy">'
             elif ad_type and "Video" in ad_type:
                 img_html = '<div class="card-img-empty video"><span>&#9654;</span></div>'
             else:
@@ -860,7 +997,16 @@ function filterEMEA(val, btn) {
 
             new_ribbon = '<div class="new-ribbon">NEW</div>' if is_new else ''
             tl_badge   = f'<span class="badge badge-tl">TL{(" · " + poster) if poster else ""}</span>' if is_tl else ''
-            var_badge  = f'<span class="badge badge-var">{variants}x</span>' if variants > 1 else ''
+            var_badge  = f'<span class="badge badge-var">{variants}x variants</span>' if variants > 1 else ''
+
+            # Variants are shown as a button linking to Ad Library, not inline
+
+            # Search text: all copy from primary + all variants
+            all_copy_text = " ".join(filter(None, [
+                headline, copy, cta,
+                *[v.get("headline","") for v in copy_variants],
+                *[v.get("body","") for v in copy_variants],
+            ])).lower()
 
             # EMEA detection
             emea_terms = {"emea","europe","european","uk","united kingdom","germany","france",
@@ -940,7 +1086,7 @@ function filterEMEA(val, btn) {
                 tp_html = f'<div class="card-tp"><table class="tp-table"><thead><tr><th class="tp-name">Parameter</th><th class="tp-val">Target</th><th class="tp-val">Excl.</th></tr></thead><tbody>{rows}</tbody></table></div>'
 
             sections_html += f"""
-    <div class="card-wrap" data-company="{company}" data-type="{ad_type}" data-tl="{'yes' if is_tl else 'no'}" data-emea="{'yes' if is_emea else 'no'}">
+    <div class="card-wrap" data-company="{company}" data-type="{ad_type}" data-tl="{'yes' if is_tl else 'no'}" data-emea="{'yes' if is_emea else 'no'}" data-id="{ad_id}" data-search="{html.escape(all_copy_text)}">
       <div class="card {'card-new' if is_new else ''}" style="--co:{color}">
         {new_ribbon}
         <div class="card-img-wrap">{img_html}</div>
@@ -960,7 +1106,10 @@ function filterEMEA(val, btn) {
           {country_html}
           {tp_html}
         </div>
-        <a class="card-link" href="{url}" target="_blank">View on LinkedIn Ad Library &rarr;</a>
+        <div class="card-actions">
+          <a class="card-link" href="{url}" target="_blank">View on Ad Library &rarr;</a>
+          {f'<button class="card-link card-link-variants" onclick="openVariants(this)"data-variants="{html.escape(json.dumps([{"headline": (ad.get("headline") or "").strip(), "body": (ad.get("body") or "").strip(), "cta": (ad.get("cta") or "").strip(), "url": url}] + copy_variants))}">{len(copy_variants) + 1} variants &rarr;</button>' if copy_variants else ''}
+        </div>
       </div>
     </div>"""
 
@@ -971,6 +1120,7 @@ function filterEMEA(val, btn) {
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+{favicon_tag}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ads Intelligence - Sprinto</title>
@@ -991,6 +1141,17 @@ function filterEMEA(val, btn) {
   <div class="stat-chip"><div class="val">{len(processed)}</div><div class="lbl">Competitors</div></div>
   <div class="stat-chip"><div class="val">{tl_total}</div><div class="lbl">Thought leadership</div></div>
   {new_stat}
+  <div class="sort-wrap">
+    <span class="sort-lbl">Sort</span>
+    <button class="sort-btn active" onclick="setSort('latest',this)">Latest</button>
+    <button class="sort-btn" onclick="setSort('oldest',this)">Oldest</button>
+  </div>
+  <div class="search-wrap">
+    <span class="search-icon">&#9906;</span>
+    <input class="search-input" type="text" placeholder="Search ads… e.g. SOC 2"
+           oninput="onSearch(this.value)">
+    <button class="search-clear" onclick="clearSearch()">&#10005;</button>
+  </div>
   <div class="topbar-date">Updated {today_str} &nbsp;&middot;&nbsp; LinkedIn Ad Library</div>
 </div>
 
@@ -1017,6 +1178,19 @@ function filterEMEA(val, btn) {
     {sections_html}
     <div class="empty">No ads match the current filters.</div>
   </main>
+</div>
+
+<div class="modal-overlay" id="variantsModal" onclick="closeVariantsIfBg(event)">
+  <div class="modal">
+    <div class="modal-head">
+      <div>
+        <div class="modal-title" id="modalTitle">Copy Variants</div>
+        <div class="modal-sub" id="modalSub"></div>
+      </div>
+      <button class="modal-close" onclick="closeVariants()">&#10005;</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
 </div>
 
 <script>{js}</script>
@@ -1207,6 +1381,9 @@ def main():
                     download_image(detail["image_url"], str(img_path))
                 if img_path.exists():
                     detail["local_image"] = str(img_path)
+                    # Cache base64 so CI (no local files) can still embed images
+                    if not detail.get("image_b64"):
+                        detail["image_b64"] = img_to_b64(str(img_path))
 
             cache[ad_id] = detail
             enriched.append(detail)
@@ -1228,6 +1405,18 @@ def main():
     if not args.no_fetch:
         RESEARCH_FILE.write_text(json.dumps(research, indent=2))
         print(f"  Saved updated research file.")
+
+    # ── Backfill image_b64 in cache for ads that have local files but no b64 ────
+    backfilled = 0
+    for ad_id, entry in cache.items():
+        if entry.get("local_image") and not entry.get("image_b64"):
+            b64 = img_to_b64(entry["local_image"])
+            if b64:
+                entry["image_b64"] = b64
+                backfilled += 1
+    if backfilled:
+        save_cache(cache)
+        print(f"  Backfilled image_b64 for {backfilled} cached ads.")
 
     # ── Generate gallery ───────────────────────────────────────────────────────
     print(f"\n  Generating gallery...")

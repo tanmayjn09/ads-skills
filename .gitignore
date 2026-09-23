@@ -7,3 +7,5 @@ venv/
 vercel-deploy/index.html
 PMax_Image_Performance.md
 *.Brief.md
+.vercel
+gallery_cache.json

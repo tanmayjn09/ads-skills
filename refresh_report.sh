@@ -12,6 +12,10 @@ echo "--- $(date) ---" >> "$LOG"
 python3 generate_pmax_images.py >> "$LOG" 2>&1
 
 cp PMax_Image_Performance.html vercel-deploy/index.html
-vercel --prod --cwd vercel-deploy >> "$LOG" 2>&1
+
+cd /Users/tanmayjn/ads-skills/vercel-deploy
+git add index.html
+git diff --staged --quiet || git commit -m "chore: refresh report $(date '+%Y-%m-%d')"
+git push origin main >> "$LOG" 2>&1
 
 echo "Done." >> "$LOG"

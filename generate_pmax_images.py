@@ -2089,6 +2089,9 @@ function showPlatform(p) {{
     document.getElementById('main-'+pl).style.display   = isA ? '' : 'none';
     document.getElementById('btn-'+pl).classList.toggle('active', isA);
   }});
+  // Always highlight Cross-Campaign (first sidebar link) when switching platforms
+  const firstLink = document.querySelector('#sb-' + p + ' .sb-link');
+  if (firstLink) {{ links.forEach(l => l.classList.remove('active')); firstLink.classList.add('active'); }}
 }}
 
 // Apply 7D as default on page load

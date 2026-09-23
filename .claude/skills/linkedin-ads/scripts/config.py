@@ -7,9 +7,12 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load .env from the same directory as this file
-_env_path = Path(__file__).parent / ".env"
-load_dotenv(_env_path)
+# Root .env (4 levels up) is the source of truth for access tokens — OAuth saves there.
+# Load it first so the fresh token wins, then load local .env for CLIENT_SECRET etc.
+_root_env = Path(__file__).parents[4] / ".env"
+_local_env = Path(__file__).parent / ".env"
+load_dotenv(_root_env)
+load_dotenv(_local_env)  # override=False by default — won't clobber token already set above
 
 
 def get_config() -> dict:
