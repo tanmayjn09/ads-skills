@@ -1,0 +1,72 @@
+name: Weekly LinkedIn Report
+
+on:
+  schedule:
+    # Every Wednesday at 8:00 AM UTC (1:30 PM IST)
+    - cron: '0 8 * * 3'
+  workflow_dispatch:
+    inputs:
+      week_ending:
+        description: 'Week ending date (YYYY-MM-DD). Defaults to last Friday.'
+        required: false
+        type: string
+
+jobs:
+  update-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r .claude/skills/linkedin-ads/scripts/requirements.txt
+
+      - name: Write credentials
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_REFRESH_TOKEN: ${{ secrets.LINKEDIN_REFRESH_TOKEN }}
+          LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+          LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+          LINKEDIN_ACCOUNT_ID: ${{ secrets.LINKEDIN_ACCOUNT_ID }}
+          SHEETS_TOKEN_JSON: ${{ secrets.SHEETS_TOKEN_JSON }}
+        run: |
+          python3 - <<'EOF'
+          import os
+          from pathlib import Path
+
+          root = Path('.')
+
+          # Write root .env — client.py reads from here for token refresh
+          with open(root / '.env', 'w') as f:
+              f.write(f'LINKEDIN_ACCESS_TOKEN={os.environ["LINKEDIN_ACCESS_TOKEN"]}\n')
+              f.write(f'LINKEDIN_REFRESH_TOKEN={os.environ["LINKEDIN_REFRESH_TOKEN"]}\n')
+              f.write(f'LINKEDIN_CLIENT_ID={os.environ["LINKEDIN_CLIENT_ID"]}\n')
+              f.write(f'LINKEDIN_CLIENT_SECRET={os.environ["LINKEDIN_CLIENT_SECRET"]}\n')
+              f.write(f'LINKEDIN_ACCOUNT_ID={os.environ["LINKEDIN_ACCOUNT_ID"]}\n')
+
+          # Write Google Sheets token — weekly_report.py reads from scripts dir
+          token_path = root / '.claude/skills/linkedin-ads/scripts/sheets_token.json'
+          token_path.write_text(os.environ['SHEETS_TOKEN_JSON'])
+
+          print('Credentials written.')
+          EOF
+
+      - name: Compute week ending date
+        id: week
+        run: |
+          if [ -n "${{ inputs.week_ending }}" ]; then
+            echo "date=${{ inputs.week_ending }}" >> $GITHUB_OUTPUT
+          else
+            # Default: last Friday (most recently completed week)
+            echo "date=$(date -d 'last friday' +%Y-%m-%d)" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run weekly report
+        working-directory: .claude/skills/linkedin-ads/scripts
+        run: python3 weekly_report.py --week-ending ${{ steps.week.outputs.date }}
