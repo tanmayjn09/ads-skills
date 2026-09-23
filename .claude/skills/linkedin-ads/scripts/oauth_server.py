@@ -13,7 +13,8 @@ load_dotenv()
 CLIENT_ID = os.getenv("LINKEDIN_CLIENT_ID")
 CLIENT_SECRET = os.getenv("LINKEDIN_CLIENT_SECRET")
 REDIRECT_URI = os.getenv("LINKEDIN_REDIRECT_URI", "http://localhost:3000/callback")
-SCOPES = "r_ads,r_ads_reporting,r_organization_social,w_organization_social,rw_ads,w_member_social"
+# offline_access grants a refresh token valid 365 days (access token expires in 60 days)
+SCOPES = "r_ads r_ads_reporting r_organization_social w_organization_social rw_ads w_member_social offline_access"
 
 AUTH_URL = (
     f"https://www.linkedin.com/oauth/v2/authorization?"
@@ -33,15 +34,14 @@ class OAuthHandler(http.server.BaseHTTPRequestHandler):
             params = urllib.parse.parse_qs(parsed.query)
             if "code" in params:
                 code = params["code"][0]
-                token = self.exchange_code(code)
-                if token:
-                    self.save_token(token)
+                token_data = self.exchange_code(code)
+                if token_data:
+                    self.save_tokens(token_data)
                     self.send_response(200)
                     self.send_header("Content-type", "text/html")
                     self.end_headers()
-                    self.wfile.write(b"<h1>Success! Access token saved. You can close this window.</h1>")
-                    print(f"\nSUCCESS! Access token saved to .env")
-                    print(f"TOKEN: {token}")
+                    self.wfile.write(b"<h1>Success! Tokens saved. You can close this window.</h1>")
+                    print(f"\nSUCCESS! Access token and refresh token saved to .env")
                     shutdown_flag = True
                 else:
                     self.send_response(500)
@@ -73,23 +73,43 @@ class OAuthHandler(http.server.BaseHTTPRequestHandler):
             headers={"Content-Type": "application/x-www-form-urlencoded"},
         )
         if resp.status_code == 200:
-            return resp.json().get("access_token")
+            return resp.json()
         else:
             print(f"Token exchange failed: {resp.status_code} {resp.text}")
             return None
 
-    def save_token(self, token):
-        # Save to root .env
+    def save_tokens(self, token_data):
+        access_token = token_data.get("access_token", "")
+        refresh_token = token_data.get("refresh_token", "")
+
         env_path = os.path.join(os.path.dirname(__file__), "..", "..", "..", "..", ".env")
         env_path = os.path.abspath(env_path)
+
         with open(env_path, "r") as f:
             lines = f.readlines()
+
+        updated = {"LINKEDIN_ACCESS_TOKEN": False, "LINKEDIN_REFRESH_TOKEN": False}
+        new_lines = []
+        for line in lines:
+            if line.startswith("LINKEDIN_ACCESS_TOKEN="):
+                new_lines.append(f"LINKEDIN_ACCESS_TOKEN={access_token}\n")
+                updated["LINKEDIN_ACCESS_TOKEN"] = True
+            elif line.startswith("LINKEDIN_REFRESH_TOKEN="):
+                new_lines.append(f"LINKEDIN_REFRESH_TOKEN={refresh_token}\n")
+                updated["LINKEDIN_REFRESH_TOKEN"] = True
+            else:
+                new_lines.append(line)
+
+        # Append any keys that didn't exist yet
+        for key, was_updated in updated.items():
+            if not was_updated:
+                value = access_token if key == "LINKEDIN_ACCESS_TOKEN" else refresh_token
+                if value:
+                    new_lines.append(f"{key}={value}\n")
+
         with open(env_path, "w") as f:
-            for line in lines:
-                if line.startswith("LINKEDIN_ACCESS_TOKEN="):
-                    f.write(f"LINKEDIN_ACCESS_TOKEN={token}\n")
-                else:
-                    f.write(line)
+            f.writelines(new_lines)
+
         print(f"Saved to: {env_path}")
 
     def log_message(self, format, *args):
@@ -97,6 +117,7 @@ class OAuthHandler(http.server.BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    import sys
     print("=" * 60)
     print("LinkedIn OAuth 2.0 Authorization")
     print("=" * 60)
@@ -104,6 +125,7 @@ if __name__ == "__main__":
     print("2. Log in and authorize the app")
     print("3. You'll be redirected back here automatically\n")
     print("Waiting for callback on http://localhost:3000 ...")
+    sys.stdout.flush()
 
     server = http.server.HTTPServer(("localhost", 3000), OAuthHandler)
     while not shutdown_flag:
